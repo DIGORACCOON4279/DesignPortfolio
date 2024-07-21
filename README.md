@@ -1,4 +1,4 @@
-# UX/Ui DESIGN PORTFOLIO </br>
+# *UX/Ui DESIGN PORTFOLIO* </br>
 
 ![image](https://github.com/user-attachments/assets/49759c2a-a929-47da-99e0-054872259265) </br>
 
@@ -6,11 +6,11 @@
 
 ## Description: 😎</br>
 
-## 👀  UX/Ui DESIGN PORTFOLIO  </br>
+## 👀 *UX/Ui DESIGN PORTFOLIO* </br>
 
 Welcome to my **UX/Ui DESIGN PORTFOLIO**. This repository showcases my work in design and web development, created with a blend of Figma, HTML, CSS3, and JavaScript. All projects have been coded using Visual Studio Code.
 
-## 🖥  Portfolio Structure </br>
+## 🖥 *Portfolio Structure* </br>
 
 ⚡ **Landing Page:** </br> 
 The homepage of my portfolio, designed to capture attention and provide an overview of my skills and projects.</br>
@@ -44,13 +44,13 @@ This portfolio not only demonstrates my skills in design and development but als
 
 ***************************************************************************************************************************************************************************************
 
-## Descripción:  😎</br>
+## Descripción: 😎</br>
 
- ## 👀 UX/UI DESIGN PORTFOLIO </br>
+## 👀*UX/UI DESIGN PORTFOLIO* </br>
 
 Bienvenido a mi **PORTAFOLIO DISEÑO UX/Ui**. Este repositorio muestra mi trabajo en diseño y desarrollo web, creado con una combinación de Figma, HTML, CSS3, y JavaScript. Todos los proyectos han sido codificados utilizando Visual Studio Code.</br>
 
-## 🖥 Estructura del Portafolio: </br>
+## 🖥 *Estructura del Portafolio:* </br>
 
 ⚡ **Landing Page:**</br>
 La página de inicio de mi portafolio, diseñada para captar la atención y proporcionar una visión general de mis habilidades y proyectos.</br>
