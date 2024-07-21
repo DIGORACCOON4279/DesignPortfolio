@@ -4,8 +4,7 @@
 
 
 
-Sections </br>
-![image](https://github.com/user-attachments/assets/5021c5a2-7c5a-4948-b4a0-41505f2105bc) </br>
+⚡ Sections - project, Brandin, & Additional Projects </br>
 ![image](https://github.com/user-attachments/assets/ebd04af8-77c1-4d1b-9949-da35e7d7e79c) </br>
 ![image](https://github.com/user-attachments/assets/a3442bd0-2f5f-49b0-95a6-c39942b11422) </br>
 ![image](https://github.com/user-attachments/assets/97141c9c-b7f1-4f2b-8877-1f1da5b696d3) </br>
