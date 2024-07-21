@@ -8,7 +8,7 @@
 
 ## 👀 *UX/Ui DESIGN PORTFOLIO* </br>
 
-Welcome to my **UX/Ui DESIGN PORTFOLIO**. This repository showcases my work in design and web development, created with a blend of Figma, HTML, CSS3, and JavaScript. All projects have been coded using Visual Studio Code.
+Welcome to my **UX/Ui DESIGN PORTFOLIO**. This repository showcases my work in design🎨 and web development🖥 , created with a blend of Figma, HTML, CSS3, and JavaScript. All projects have been coded using Visual Studio Code.
 
 ## 🖥 *Portfolio Structure* </br>
 
@@ -48,7 +48,7 @@ This portfolio not only demonstrates my skills in design and development but als
 
 ## 👀*UX/UI DESIGN PORTFOLIO* </br>
 
-Bienvenido a mi **PORTAFOLIO DISEÑO UX/Ui**. Este repositorio muestra mi trabajo en diseño y desarrollo web, creado con una combinación de Figma, HTML, CSS3, y JavaScript. Todos los proyectos han sido codificados utilizando Visual Studio Code.</br>
+Bienvenido a mi **PORTAFOLIO DISEÑO UX/Ui**. Este repositorio muestra mi trabajo en diseño🎨 y desarrollo web🖥, creado con una combinación de Figma, HTML, CSS3, y JavaScript. Todos los proyectos han sido codificados utilizando Visual Studio Code.</br>
 
 ## 🖥 *Estructura del Portafolio:* </br>
 
