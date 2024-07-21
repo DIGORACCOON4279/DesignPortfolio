@@ -14,4 +14,4 @@ Sections </br>
 
 
 🚀DeploymentSections </br>
-![Design - Porfolio](https://design-portfolio-gilt-theta.vercel.app/)Sections </br>
+[Design - Porfolio](https://design-portfolio-gilt-theta.vercel.app/)</br>
