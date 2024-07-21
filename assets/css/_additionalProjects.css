@@ -1,0 +1,707 @@
+
+
+/* Additional Projects */
+
+.mainContainerAdditionalProjects{
+    width:100%;
+    height:auto;
+    margin: auto;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 23% 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "heroSection heroSection heroSection"
+    "menuSide figma figma"
+    "menuSide landingPages landingPages"
+    "menuSide webDevelopment webDevelopment"
+    "menuSide components components"
+    "menuSide animationMotion animationMotion"
+    ;
+}
+.mainContainerAdditionalProjects .heroSection{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 100px 0px 250px 0px;
+    grid-area: heroSection;
+}
+.mainContainerAdditionalProjects .heroSection::after{
+    content:" ";
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd0e;
+    backdrop-filter: blur(4px);
+    z-index:-1;
+    margin: auto;
+}
+.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects{
+    width:70%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin: auto;
+    padding: 150px 0px 50px 0px;
+}
+.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    perspective: 1000px;
+}
+.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card:hover {
+    transform: rotateY(180deg);
+}
+.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card .cardHero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    backface-visibility: hidden;
+}
+.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card .back {
+    transform: rotateY(180deg);
+}
+.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card .cardHero .bussinessCard {
+    width: fit-content;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #3a3a3a1c;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px #0000001a;
+}
+.mainContainerAdditionalProjects .additionalProjects{
+    background-image: url("../../img/projectBackground.webp");
+    background-repeat:no-repeat;
+    background-position: center right;
+    background-size: 100%;
+}
+.mainContainerAdditionalProjects .figma{
+    grid-area: figma;
+    /* margin-top: 50px; */
+}
+.mainContainerAdditionalProjects .landingPages{
+    grid-area: landingPages;
+}
+.mainContainerAdditionalProjects .webDevelopment{
+    grid-area: webDevelopment;
+}
+.mainContainerAdditionalProjects .componentLayouts{
+    grid-area: components;
+}
+.mainContainerAdditionalProjects .animationMotion{
+    grid-area: animationMotion;
+}
+.mainContainerAdditionalProjects .figma div.containerSection,
+.mainContainerAdditionalProjects .landingPages div.containerSection,
+.mainContainerAdditionalProjects .webDevelopment div.containerSection,
+.mainContainerAdditionalProjects .componentLayouts div.containerSection,
+.mainContainerAdditionalProjects .animationMotion div.containerSection{
+    width:85%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 100px 0px;
+    margin: 0px auto;
+    gap:20px;
+}
+.mainContainerAdditionalProjects .heroSection .titles{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:30px;
+    animation:titles 1s linear ;
+}
+@keyframes titles {
+    0%{
+        transform:translate(100%);
+        opacity:0;
+    }
+    100%{
+        transform:translate(0%);
+        opacity:1;
+    }
+}
+.mainContainerAdditionalProjects .heroSection .titles .titleProject{
+    color:#ffffff;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    font-weight: 700;
+}
+.mainContainerAdditionalProjects .heroSection .titles .paragraph{
+    color:#e6e6e6;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background-color: #c900c949;
+    border-radius: 0px 15px;
+    color: #ffffff;
+    padding: 0px 15px;
+    font-style: italic;
+}
+.mainContainerAdditionalProjects .heroSection .spot{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    animation: 25s linear infinite alternate;
+    border-radius: 50%;
+    z-index: -1;
+    opacity:0.4;
+}
+.mainContainerAdditionalProjects .heroSection .spot1 {
+    background: linear-gradient(to bottom, #aed9e0, #ffffff);
+    top: 10%;
+    left: 10%;
+    animation-name: moveSpot1;
+}
+.mainContainerAdditionalProjects .heroSection .spot2 {
+    background: linear-gradient(to right, #c8e6c9, #fff9c4);
+    top: 70%;
+    left: 10%;
+    animation-name: moveSpot2;
+}
+.mainContainerAdditionalProjects .heroSection .spot3 {
+    background: linear-gradient(to bottom right, #f8bbd0, #bbdefb);
+    top: 50%;
+    left: 50%;
+    animation-name: moveSpot3;
+}
+.mainContainerAdditionalProjects .heroSection .spot4 {
+    background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
+    bottom: 10%;
+    right: 20%;
+    animation-name: moveSpot4;
+}
+.mainContainerAdditionalProjects .heroSection .spot5 {
+    background: linear-gradient(135deg, #e1bee7, #ffcc80);
+    bottom: 70%;
+    left: 80%;
+    animation-name: moveSpot5;
+}
+.mainContainerAdditionalProjects .heroSection .spot6 {
+    background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
+    bottom: 50%;
+    right: 100%;
+    animation-name: moveSpot6;
+}
+.mainContainerAdditionalProjects .heroSection .spot7 {
+    background: linear-gradient(135deg, #e1bee7, #ffcc80);
+    bottom: 35%;
+    left: 30%;
+    animation-name: moveSpot7;
+}
+@keyframes moveSpot1 {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(50px, 50px) scale(1.2);
+    }
+    50% {
+        transform: translate(100px, 0) scale(1);
+    }
+    75% {
+        transform: translate(50px, -50px) scale(1.2);
+    }
+}
+@keyframes moveSpot2 {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(-50px, 50px) scale(1.2);
+    }
+    50% {
+        transform: translate(0, 100px) scale(1);
+    }
+    75% {
+        transform: translate(50px, 50px) scale(1.2);
+    }
+}
+@keyframes moveSpot3 {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(-50px, -50px) scale(1.2);
+    }
+    50% {
+        transform: translate(0, -100px) scale(1);
+    }
+    75% {
+        transform: translate(50px, -50px) scale(1.2);
+    }
+}
+@keyframes moveSpot4 {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(50px, -50px) scale(1.2);
+    }
+    50% {
+        transform: translate(100px, 0) scale(1);
+    }
+    75% {
+        transform: translate(50px, 50px) scale(1.2);
+    }
+}
+@keyframes moveSpot5 {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(-50px, -50px) scale(1.2);
+    }
+    50% {
+        transform: translate(0, -100px) scale(1);
+    }
+    75% {
+        transform: translate(-50px, -50px) scale(1.2);
+    }
+}
+@keyframes moveSpot6 {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(50px, -50px) scale(1.2);
+    }
+    50% {
+        transform: translate(100px, 0) scale(1);
+    }
+    75% {
+        transform: translate(50px, 50px) scale(1.2);
+    }
+}
+@keyframes moveSpot7 {
+    0%, 100% {
+        transform: translate(0, 0) scale(1);
+    }
+    25% {
+        transform: translate(-50px, -50px) scale(1.2);
+    }
+    50% {
+        transform: translate(0, -100px) scale(1);
+    }
+    75% {
+        transform: translate(-50px, -50px) scale(1.2);
+    }
+}
+
+/* MenuSide */
+
+.mainContainerAdditionalProjects .menuSide{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: menuSide;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 70px 20px 0px;
+}
+
+/* List Menu */
+
+.mainContainerAdditionalProjects .menuSide .menuProject ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject ul li{
+    width:100%;
+    overflow: hidden;
+    list-style-type: none;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject ul li .itemArea{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 13px;
+    color:#a8a8a8;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 10px;
+    transition:0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject ul li .itemArea:hover{
+    color: #6a0dad;
+    background: linear-gradient(to right, #add8e659, #ff8fff8a, #f0f0f0);
+}
+.mainContainerAdditionalProjects .menuSide .menuProject ul li .itemArea:hover::after{
+    content:"⚡";
+    font-size:0.7rem;
+}
+
+/* Profile */
+
+.mainContainerAdditionalProjects .menuSide .menuProject .profile {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:15px;
+    align-items: center;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject .profile .avatar{
+    width:45px;
+    height: auto;
+    text-align: center;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject .profile p.paragraph{
+    width:80%;
+    color:#303030;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-wrap: wrap;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject .profile p.paragraph:last-child{
+    color:#c900c9;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Return Menu */
+
+.mainContainerAdditionalProjects .menuSide .menuProject .return {
+    place-self: self-start;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject #menuIcon {
+    display: none;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject label .homeImg {
+    width: 35px;
+    overflow: hidden;
+    border-radius: 100%;
+    cursor:pointer;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject label .homeImg:hover {
+    box-shadow: 0 0 15px 1px #dadada;
+}
+.mainContainerAdditionalProjects .menuSide .menuProject label .homeImg:hover + .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(100%);
+}
+.mainContainerAdditionalProjects .menuSide .menuProject label .tooltip {
+    position: absolute;
+    background-color: #000000;
+    font-size: 0.6rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(130%);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Titles */
+
+.mainContainerAdditionalProjects .section .containerSection{
+    padding: 20px;
+    position: relative;
+}
+.mainContainerAdditionalProjects .section .containerSection .containerInfo{
+    width:100%;
+    height:auto;
+}
+.mainContainerAdditionalProjects .section .containerSection .containerInfo .title{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #add8e659, #ff8fff8a, #f0f0f0);
+    color:#6a0dad;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Tags */
+
+.mainContainerAdditionalProjects .section .containerSection .tag{
+    width:max-content;
+    background-color: #c900c9;
+    align-self: self-start;
+    margin: 30px 0px 30px;
+    position:sticky;
+    top:90px;
+    z-index: 9;
+    border-radius: 5px;
+}
+.mainContainerAdditionalProjects .section div.containerSection .titleTag{
+    color:#ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+/* Slider Cards */
+
+.mainContainerAdditionalProjects .section .containerSection .sliderCards{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    padding:100px 40px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards{
+    width:35%;
+    flex: 0 0 auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px #0000001a;
+    background-color: #dbdbdb23;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .tooltipInfo{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .tooltipInfo .imageProject{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio:3/2;
+    z-index: 1;
+    transform:scale(120%);
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards:hover .tooltipInfo > .imageProject{
+    transform: scale(110%);
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .infoContent{
+    width:100%;
+    flex: 0 0 auto;
+    height:100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #f5f4f3;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .infoContent .info{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .infoContent .info .titleProject{
+    color:#c900c9;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #c900c923;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .infoContent .info .iconProject{
+    width:35px;
+    align-self: center;
+}
+.mainContainerAdditionalProjects .figma .containerSection .sliderCards .projectCards .tooltipInfo .tooltip,
+.mainContainerAdditionalProjects .landingPages .containerSection .sliderCards .projectCards .tooltipInfo .tooltip,
+.mainContainerAdditionalProjects .webDevelopment .containerSection .sliderCards .projectCards .tooltipInfo .tooltip,
+.mainContainerAdditionalProjects .componentLayouts .containerSection .sliderCards .projectCards .tooltipInfo .tooltip,
+.mainContainerAdditionalProjects .animationMotion .containerSection .sliderCards .projectCards .tooltipInfo .tooltip{
+    width:auto;
+    position: absolute;
+    bottom:2%;
+    right:2%;
+    background-color: #000000;
+    color:#ffffff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    transform-origin: center;
+    z-index: 9;
+    transform: translate(250px);
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .figma .containerSection .sliderCards .projectCards:hover .tooltipInfo > .tooltip,
+.mainContainerAdditionalProjects .landingPages .containerSection .sliderCards .projectCards:hover .tooltipInfo > .tooltip,
+.mainContainerAdditionalProjects .webDevelopment .containerSection .sliderCards .projectCards:hover .tooltipInfo > .tooltip,
+.mainContainerAdditionalProjects .componentLayouts .containerSection .sliderCards .projectCards:hover .tooltipInfo > .tooltip,
+.mainContainerAdditionalProjects .animationMotion .containerSection .sliderCards .projectCards:hover .tooltipInfo > .tooltip{
+    content: " ";
+    transform: translate(0px);
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .infoContent .paragraph{
+    color:#949494;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .infoContent .ctaItem{
+    width:100%;
+    background-color: #161616;
+    color:#cfcfcf;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition:0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .ctaItem:hover{
+    background-color: #3a3a3a;
+    color:#ffffff;
+}
+
+/* Arrows Slider */
+
+.mainContainerAdditionalProjects .section .containerSection .arrows{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform:  translateY(-50%);
+}
+.mainContainerAdditionalProjects .section .containerSection .arrows .arrow{
+    width:50px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:#f2f2f2 ;
+    transform:  translateX(-50%);
+    transition:0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(1){
+    transform:  translateX(-110%);
+}
+.mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(2){
+    transform:  translateX(110%);
+}
+.mainContainerAdditionalProjects .section .containerSection .arrows .arrow:hover{
+    background-color:#ffbcff ;
+    border: 1px solid #ffffff;
+}
+
+/* ArrowUp ContainerProject */
+
+.mainContainerAdditionalProjects .arrowup{
+    width:50px;
+    height: 50px;
+    position:fixed;
+    bottom:30px;
+    right:23px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-radius: 10px;
+    background-color:#f2f2f2 ;
+    transition:0.3s ease-in-out;
+}
+.mainContainerAdditionalProjects .arrowup:hover{
+    background-color:#ffbcff ;
+    border: 1px solid #ffffff;
+}
+.mainContainerAdditionalProjects .arrowup .arrowupIcon{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 5px;
+    transition:0.3s ease-in-out;
+}
+

@@ -1,0 +1,370 @@
+
+/* HeaderProjects */
+
+/* Header */
+
+.headerProjects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    z-index: 999;
+    background-color: #fdfdfd00;
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease-in-out;
+}
+.headerProjects:hover{
+    box-shadow: 0 0 48px 2px #dadada;
+}
+
+/* Navbar */
+
+.headerProjects .navbar {
+    width: 85%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.headerProjects .navbar .logoIcon .logo {
+    width: 60px;
+}
+.headerProjects .sectionMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.headerProjects .navbar #menuIcon {
+    display: none;
+}
+.headerProjects .navbar label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerProjects .navbar label .menuImg,
+.headerProjects .navbar label .homeImg{
+    width: 35px;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: #ffffff;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.headerProjects .navbar label .menuImg:hover,
+.headerProjects .navbar label .homeImg:hover{
+    box-shadow: 0 0 15px 1px #dadada;
+}
+.headerProjects .navbar label .menuImg:hover + .tooltip,
+.headerProjects .navbar label .homeImg:hover + .tooltip{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(190%);
+}
+.headerProjects .navbar label .tooltip {
+    position: absolute;
+    background-color: #000000;
+    font-size: 0.6rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(130%);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Menu */
+
+.headerProjects .navbar .menu {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    display: flex;
+    flex-direction: row-reverse;
+    opacity:0;
+    visibility: hidden;
+    background-image: url("../../img/backgroundHeroSection.webp");
+    background-repeat:no-repeat;
+    background-position: center right;
+    background-size: 100%;
+    background-attachment: fixed;
+    transition:  transform 0.15s ease-in-out, opacity 0.2s ease-in-out ;
+}
+.headerProjects .navbar #menuIcon:checked ~ .menu {
+    opacity:1;
+    visibility: visible;
+}
+.headerProjects .navbar .menu .menuLinks {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:30px;
+    padding: 15px;
+    background-color: #fdfdfd;
+}
+.headerProjects .navbar .menu .menuLinks .projects{
+    width:90%;
+    height:auto;
+    color:#a8a8a8;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.headerProjects .navbar .menu .menuLinks ul {
+    width:95%;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.headerProjects .navbar .menu .menuLinks ul li {
+    width: 100%;
+    list-style-type: none;
+}
+.headerProjects .navbar .menu .menuLinks ul li .item {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    color:#a8a8a8;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 10px;
+    transition:0.3s ease-in-out;
+}
+.headerProjects .navbar .menu .menuLinks ul li .item:hover{
+    color: #6a0dad;
+    background: linear-gradient(to right, #add8e659, #ff8fff8a, #f0f0f0);
+}
+.headerProjects .navbar .menu .menuLinks ul li .item:hover::after {
+    content:"🚀";
+    font-size: 0.7rem;
+}
+.headerProjects .navbar .menu .menuLinks .return {
+    place-self: self-start;
+}
+.headerProjects .navbar .menu .menuLinks #menuIcon {
+    display: none;
+}
+.headerProjects .navbar .menu .menuLinks label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerProjects .navbar .menu .menuLinks label .menuImg {
+    width: 35px;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+.headerProjects .navbar .menu .menuLinks label .menuImg:hover {
+    box-shadow: 0 0 15px 1px #dadada;
+}
+.headerProjects .navbar .menu .menuLinks label .menuImg:hover + .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(100%);
+}
+.headerProjects .navbar .menu .menuLinks label .tooltip {
+    position: absolute;
+    background-color: #000000;
+    font-size: 0.6rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(130%);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Close Button */
+
+.headerProjects .navbar .menu .menuLinks label .closeImg {
+    width: 35px;
+    overflow: hidden;
+    border-radius: 100%;
+    cursor:pointer;
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+}
+.headerProjects .navbar .menu .menuLinks label .closeImg:hover {
+    box-shadow: 0 0 15px 1px #dadada;
+}
+.headerProjects .navbar .menu .projectsDirect {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerProjects .navbar .menu .projectsDirect .slide{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(255, 255, 255);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:hover{
+    width:100%;
+}
+.headerProjects .navbar .menu .projectsDirect .slide::after{
+    content:"";
+    width: 100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:scale(0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:hover::after{
+    content:"";
+    width: 100%;
+    height:100%;
+    transform:scale(100%, 100%);
+    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    backdrop-filter: blur(10px);
+}
+.headerProjects .navbar .menu .projectsDirect .slide:nth-child(1){
+    background: url("../../img/semedImg2.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:nth-child(2){
+    background-image: url("../../img/cinecoImg2.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:nth-child(3){
+    background-image: url("../../img/cocrevaImg2.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:nth-child(4){
+    background-image: url("../../img/resapiImg2.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:nth-child(5){
+    background-image: url("../../img/breakALegImg2.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:nth-child(6){
+    background-image: url("../../img/additionalProjectsImg2.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.headerProjects .navbar .menu .projectsDirect .slide .block{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+    height:100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    margin: auto;
+    overflow: hidden;
+    transform: scale(0%);
+    transition: transform 0.3s ease;
+}
+.headerProjects .navbar .menu .projectsDirect .slide:hover .block{
+    transform: scale(100%);
+    z-index: 99;
+}
+.headerProjects .navbar .menu .projectsDirect .slide .block .projectTitle{
+    width:80%;
+    color:#ffffff;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.headerProjects .navbar .menu .projectsDirect .slide .block .paragraph{
+    width:80%;
+    color:#ffffff;
+    font-size: 0.9rem;
+    font-weight:500;
+}
+.headerProjects .navbar .menu .projectsDirect .slide .block .linkProject{
+    width:50%;
+    color:#ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    background-color: #c900c9;
+    border: 2px solid #c900c9;
+    text-decoration: none;
+    transition:0.3s ease-in-out;
+    border-radius: 10px;
+}
+.headerProjects .navbar .menu .projectsDirect .slide .block .linkProject:hover{
+    color:#ffffff;
+    background: linear-gradient(to right, #add8e6, #ff8fff, #f0f0f0);
+    border: 2px solid #ffffff;
+}
+.headerProjects .navbar .menu .projectsDirect .slide .block .linkProject:hover::after{
+    content: "✍";
+}
+

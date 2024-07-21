@@ -1,0 +1,603 @@
+
+/* Break a Leg */
+
+/* Context and Challenge Break a Leg*/
+
+.mainContainerProjects .context .containerSection .sectionCovertBreakaLeg{
+    width:100%;
+    height:40vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url("../../img/bannerBreakaLeg.webp");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+    background-color: #ffffff00;
+}
+.mainContainerProjects .context .containerSection .containerInfo #picBreakALeg{
+    width:100%;
+    height:auto;
+    display: flex;
+    margin: 100px auto 0px;
+}
+.mainContainerProjects .context .containerSection .containerInfo #picBreakALeg .breakALegContext{
+    width:35%;
+    height:auto;
+    margin: auto;
+    animation:motion 10s linear infinite
+}
+@keyframes motion{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* Reseach Break a Leg */
+
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .curtain{
+    width:50%;
+    height: 70vh;
+    position:sticky;
+    top:93px;
+    left:0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    background-image: url("../../img/breakaLegResearch.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block::before{
+    content:"";
+    width: 100%;
+    height:70vh;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:scale(0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block:hover::before {
+    content:"";
+    width: 100%;
+    height:70vh;
+    transform:scale(100%, 100%) ;
+    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    backdrop-filter: blur(10px);
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block .advertising{
+    content:"";
+    width: 100%;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    transform:scale(0%, 0%) ;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block:hover .advertising {
+    content:"";
+    width:100%;
+    height:100%;
+    transform:scale(100%, 100%) skewY(5deg) ;
+    backdrop-filter: blur(10px);
+    z-index: 11;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block .advertising .advertisingTitle,
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block .advertising .brand{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block .advertising .image{
+    width:50%;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #infoBreakaLegResearch .block .advertising .brand{
+    width:50%;
+}
+
+/* Conceptualization Break a Leg */
+
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .curtain{
+    width:50%;
+    height: 70vh;
+    position:sticky;
+    top:157px;
+    left:0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    background-image: url("../../img/breakaLegDesign.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block::before{
+    content:"";
+    width: 100%;
+    height:70vh;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:scale(0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block:hover::before {
+    content:"";
+    width: 100%;
+    height:70vh;
+    transform:scale(100%, 100%) ;
+    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    backdrop-filter: blur(10px);
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block .advertising{
+    content:"";
+    width: 100%;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    transform:scale(0%, 0%) ;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block:hover .advertising {
+    content:"";
+    width:100%;
+    height:100%;
+    transform:scale(100%, 100%) skewY(5deg) ;
+    backdrop-filter: blur(10px);
+    z-index: 11;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block .advertising .advertisingTitle,
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block .advertising .brand{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block .advertising .image{
+    width:50%;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block .advertising .brand{
+    width:50%;
+}
+
+/* Implementation and Outcomes Break a Leg */
+
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit .finalBranding{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux{
+    width:100%;
+    height: 100%;
+    position:relative;
+    top:0px;
+    left:0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    background-image: url("../../img/implementationBreakaLeg2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .curtain{
+    width:100%;
+    height: 70vh;
+    position:relative;
+    top:0px;
+    left:0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    background-image: url("../../img/implementationBreakaLeg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block::before,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux::before{
+    content:"";
+    width: 100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:scale(0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block:hover::before,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux:hover::before {
+    content:"";
+    width: 100%;
+    height:100%;
+    transform:scale(100%, 100%) ;
+    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    backdrop-filter: blur(10px);
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block .advertising,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising{
+    content:"";
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    transform:scale(0%, 0%) ;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block:hover .advertising,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux:hover .advertising{
+    content:"";
+    width:100%;
+    height:100%;
+    transform:scale(100%, 100%) skewY(5deg) ;
+    backdrop-filter: blur(10px);
+    z-index: 11;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block .advertising .advertisingTitle,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block .advertising .brand,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising .advertisingTitle,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising .brand{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block .advertising .image,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising .image{
+    width:40%;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising .image{
+    width:50%;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block .advertising .brand,
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising .brand{
+    width:40%;
+}
+.mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising .brand{
+    width:50%;
+}
+
+/* Technologies and Tools Break a Leg */
+
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .curtain{
+    width:50%;
+    height: 70vh;
+    position:sticky;
+    top:93px;
+    left:0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    background-image: url("../../img/breakaLegTechnology.webp");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block::before{
+    content:"";
+    width: 100%;
+    height:70vh;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:scale(0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block:hover::before {
+    content:"";
+    width: 100%;
+    height:70vh;
+    transform:scale(100%, 100%) ;
+    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    backdrop-filter: blur(10px);
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising{
+    content:"";
+    width: 100%;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    transform:scale(0%, 0%) ;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block:hover .advertising {
+    content:"";
+    width:100%;
+    height:100%;
+    transform:scale(100%, 100%) skewY(5deg) ;
+    backdrop-filter: blur(10px);
+    z-index: 11;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising .advertisingTitle,
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising .brand{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising .image{
+    width:50%;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising .brand{
+    width:50%;
+}
+
+/* Technologies and Tools Break a Leg */
+
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .curtain{
+    width:50%;
+    height: 70vh;
+    position:sticky;
+    top:157px;
+    left:0px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    background-image: url("../../img/achievementBreakaLeg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block::before{
+    content:"";
+    width: 100%;
+    height:70vh;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:scale(0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block:hover::before {
+    content:"";
+    width: 100%;
+    height:70vh;
+    transform:scale(100%, 100%) ;
+    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    backdrop-filter: blur(10px);
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block .advertising{
+    content:"";
+    width: 100%;
+    height:70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    transform:scale(0%, 0%) ;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block:hover .advertising {
+    content:"";
+    width:100%;
+    height:100%;
+    transform:scale(100%, 100%) skewY(5deg) ;
+    backdrop-filter: blur(10px);
+    z-index: 11;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block .advertising .advertisingTitle,
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block .advertising .brand{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block .advertising .image{
+    width:50%;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block .advertising .brand{
+    width:50%;
+}
+
+ /* Impact and Benefits Break a Leg*/
+
+ .mainContainerProjects .section .containerSection #impactInfoBreakaLeg{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .curtain{
+    width:50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    background-image: url("../../img/impactBreakaLeg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block::before{
+    content:"";
+    width: 100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:scale(0%, 0%);
+    transition: 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block:hover::before {
+    content:"";
+    width: 100%;
+    height:100%;
+    transform:scale(100%, 100%) ;
+    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    backdrop-filter: blur(10px);
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising{
+    content:"";
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    transform:scale(0%, 0%) ;
+    transition: transform 0.3s ease-in-out;
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block:hover .advertising {
+    content:"";
+    width:100%;
+    height:100%;
+    transform:scale(100%, 100%) skewY(5deg) ;
+    backdrop-filter: blur(10px);
+    z-index: 11;
+
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising .advertisingTitle,
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising .brand{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising .image{
+    width:50%;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising .brand{
+    width:50%;
+}
+.mainContainerProjects .impact .containerSection .impactPicBreakALeg{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0px;
+}
+.mainContainerProjects .impact .containerSection .impactPicBreakALeg .breakALegImpact{
+    width:80%;
+    animation:motion 10s linear infinite
+}
+@keyframes motion{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

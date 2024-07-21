@@ -1,0 +1,323 @@
+/* Cineco */
+
+/* Context and Challenge Cineco*/
+
+.mainContainerProjects .context .containerSection .sectionCovertCineco{
+    width:100%;
+    height:40vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url("../../img/cineco10.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+/* .mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe,
+.mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
+    width:85%;
+    height:auto;
+    display: flex;
+    margin-top: 20% auto 0%;
+} */
+.mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe{
+    margin-bottom: 20%;
+}
+.mainContainerProjects .context .containerSection .cellphoneCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0px;
+
+}
+.mainContainerProjects .context .containerSection .cellphoneCineco .cellphone{
+    width:40%;
+    height:auto;
+    animation:motion 10s linear infinite
+}
+@keyframes motion{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* Reseach Cineco */
+
+.mainContainerProjects .section .containerSection #InfoCinecoResearch{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #InfoCinecoResearch .sectionSplit{
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #InfoCinecoResearch .cinecoResearch{
+    width:50%;
+    height:auto;
+    position: sticky;
+    top:93px;
+    left:0;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection .cinecoCellphoneResearch{
+    width:40%;
+    margin:100px auto 0px;
+    animation:motionTwo 10s linear infinite
+}
+@keyframes motionTwo{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+/* Conceptualization Cineco */
+
+.mainContainerProjects .section .containerSection #InfoConceptualizationCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #InfoConceptualizationCineco .sectionSplit{
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #InfoConceptualizationCineco .cinecoDesign{
+    width:50%;
+    height:auto;
+    position: sticky;
+    top:157.28px;
+    left:0;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article{
+    margin-top:16rem;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .wireframes,
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .wireflow{
+    width:100%;
+    height:auto;
+    margin-top:16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .wireframes .wireframeCineco,
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .wireflow .wireflowCineco{
+    width:90%;
+    height:auto;
+    margin-top:16rem;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    gap:40px;
+    margin-top: 16rem;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit .prototypes{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    gap:40px;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit .prototypeCineco{
+    width:90%;
+    height:auto;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit .tablet{
+    width:100%;
+    height:auto;
+    position: sticky;
+    top:153px;
+}
+.mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit .tablet .tabletCineco{
+    width:100%;
+    height:auto;
+}
+
+/* Implementation and Result Cineco */
+
+.mainContainerProjects .section .containerSection #containerInfoImplementation{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #containerInfoImplementation .sectionSplit{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #containerInfoImplementation .implementationImageCineco{
+    width:50%;
+    height:auto;
+    border-radius:10px;
+    position:sticky;
+    top:93px;
+}
+
+/* Technologies Cineco */
+
+.mainContainerProjects .section .containerSection #containerInfoCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #containerInfoCineco .sectionSplitCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #containerInfoCineco .cinecoTechnology{
+    width:50%;
+    height:auto;
+    position:sticky;
+    top:153px;
+}
+
+/* Achievements Cineco */
+
+.mainContainerProjects .section .containerSection #achievementsCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #achievementsCineco .sectionSplitCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #achievementsCineco .achievementsSectionImage{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top:93px;
+}
+.mainContainerProjects .section .containerSection #achievementsCineco .achievementsSectionImage .achievementsImage{
+    width:50%;
+    height:auto;
+}
+
+/* Impact Cineco */
+
+.mainContainerProjects .section .containerSection #impactCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #impactCineco .sectionSplitCineco{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #impactCineco .impactImageCineco{
+    width:50%;
+    height:auto;
+    position:sticky;
+    top:153px;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection .sectionLaptopCellphone{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16rem;
+}
+.mainContainerProjects .section .containerSection .sectionLaptopCellphone .laptopCellphone{
+    width:75%;
+    height:auto;
+}
+.mainContainerProjects #impact .containerSection .tickets{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    margin-top: 16rem;
+}
+.mainContainerProjects #impact .containerSection .tickets .ticket{
+    width:100%;
+    height:auto;
+    filter: drop-shadow(0 0 4px #949494);
+    transition:0.3s ease-in-out;
+}
+.mainContainerProjects #impact .containerSection .tickets .ticket:hover{
+    filter: drop-shadow(0 0 12px #949494);
+}

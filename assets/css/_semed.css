@@ -1,0 +1,214 @@
+/* Semed */
+
+/* Context and Challenge Semed*/
+
+.mainContainerProjects .context .containerSection .sectionCovertSemed{
+    width:100%;
+    height:40vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url("../../img/headlineSemed.webp");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-color: transparent;
+}
+.mainContainerProjects .section .containerSection .containerInfo .contextCellphone{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 0px;
+}
+.mainContainerProjects .section .containerSection .containerInfo .contextCellphone .semedContext{
+    width:35%;
+    height:auto;
+    animation:motion 10s linear infinite
+}
+@keyframes motion{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* Reseach Semed */
+
+.mainContainerProjects .section .containerSection #containerInfo{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #containerInfo .sectionSplit{
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #containerInfo .semedResearch{
+    width:50%;
+    height:auto;
+    position: sticky;
+    top:87.28px;
+    left:0;
+    border-radius: 10px;
+}
+
+/* Conceptualization Semed */
+
+.mainContainerProjects .section .containerSection #InfoConceptualization{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #InfoConceptualization .sectionSplit{
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #InfoConceptualization .imgConceptualization{
+    width:50%;
+    height:auto;
+    position: sticky;
+    top:157.28px;
+    left:0;
+    border-radius: 10px;
+}
+.mainContainerProjects .section .containerSection #infoWireframes{
+    margin-top:20%;
+}
+.mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe,
+.mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
+    width:85%;
+    height:auto;
+    display: flex;
+    margin: 16rem auto 0px;
+}
+
+/* Semed Technology */
+
+.mainContainerProjects #technologies .containerSection .containerInfo{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects #technologies .containerSection .containerInfo .infoSplit{
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects #technologies .containerSection .containerInfo .mockups{
+    width:100%;
+    position: sticky;
+    top:73px;
+    left:0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mainContainerProjects #technologies .containerSection .containerInfo .mockups .mockup{
+    width:60%;
+    border-radius: 10px;
+}
+
+/* Semed Achievements */
+
+.mainContainerProjects #achievements .containerSection .containerInfo{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects #achievements .containerSection .containerInfo .infoSplit{
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects #achievements .containerSection .containerInfo .mockups{
+    width:100%;
+    position: sticky;
+    top:73px;
+    left:0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mainContainerProjects #achievements .containerSection .containerInfo .mockups .mockup{
+    width:60%;
+    border-radius: 10px;
+}
+
+/* Semed Impact */
+
+.mainContainerProjects #impact .containerSection .containerInfo{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+.mainContainerProjects #impact .containerSection .containerInfo .infoImpact{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16rem;
+}
+.mainContainerProjects .section .containerSection .containerInfo .sectionImpact{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url("../../img/semedFinalPic.webp");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mainContainerProjects .section .containerSection .impactCellphone{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 0px;
+}
+.mainContainerProjects .section .containerSection .impactCellphone .semedImpact{
+    width:25%;
+    height:auto;
+    animation:motion 10s linear infinite
+}
+@keyframes motion{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

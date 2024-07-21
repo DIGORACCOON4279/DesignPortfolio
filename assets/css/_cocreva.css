@@ -1,0 +1,180 @@
+
+/* Cocreva */
+
+/* Context and Challenge Cocreva */
+
+.mainContainerProjects .context .containerSection .sectionCovertCocreva{
+    width:100%;
+    height:40vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    background:
+    url("../../img/cocrevaPic1.webp")  5% center / 45% no-repeat  padding-box content-box,
+    url("../../img/cocrevaPic8.webp") 85% center / 13% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+.mainContainerProjects .context .containerSection .sectionCovertCocreva:last-child{
+    background:
+    url("../../img/cocrevaPic8.webp") 85% center / 14% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+
+/* Reseach Cocreva */
+
+.mainContainerProjects .section .containerSection #infoCocrevaResearch{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaResearch .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaResearch .rideaux{
+    width:50%;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaResearch .rideaux .image{
+    width:100%;
+    display: flex;
+    margin:auto;
+}
+
+/* Conceptualization Cocreva */
+
+.mainContainerProjects .section .containerSection #infoCocrevaConceptualization{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaConceptualization .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaConceptualization .rideaux{
+    width:50%;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaConceptualization .rideaux .image{
+    width:50%;
+    display: flex;
+    margin:auto;
+}
+
+/* Implementation Cocreva */
+
+.mainContainerProjects .section .containerSection #infoCocrevaImplementation{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaImplementation .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaImplementation .rideaux{
+    width:50%;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaImplementation .rideaux .image{
+    width:70%;
+    display: flex;
+    margin:auto;
+}
+
+/* Technologies Cocreva */
+
+.mainContainerProjects .section .containerSection #infoCocrevaTechnology{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaTechnology .sectionSplit{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaTechnology .rideaux{
+    width:50%;
+    position: sticky;
+    top:93px;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaTechnology .rideaux .image{
+    width:50%;
+    display: flex;
+    margin:auto;
+}
+
+/* Achievements Cocreva */
+
+.mainContainerProjects .section .containerSection #infoCocrevaAchievements{
+    width:85%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+    overflow: hidden;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit:first-child .rideaux .image{
+    width:50%;
+    height: auto;
+    display: flex;
+    margin:auto;
+    position: sticky;
+    top:157px;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit:last-child .rideaux .image{
+    width:200%;
+    height: auto;
+    display: flex;
+    margin:auto;
+}
+
+/* Impact Cocreva */
+
+.mainContainerProjects .section .containerSection .infoCocrevaImpact{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+.mainContainerProjects .section .containerSection .infoCocrevaImpact .containerInfo .article{
+    width:100%;
+}
+.mainContainerProjects .section .containerSection .infoCocrevaImpact .rideaux{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+}
+.mainContainerProjects .section .containerSection .infoCocrevaImpact .rideaux .image{
+    width:80%;
+    height: auto;
+    display: flex;
+    margin:auto;
+}
+
+

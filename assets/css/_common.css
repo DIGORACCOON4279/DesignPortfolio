@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+    background-image: url("../../img/backgroundHeroSection.webp");
+    background-repeat:no-repeat;
+    background-position:center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* ArrowUp ContainerProject */
+
+.mainContainerProjects .arrowup{
+    width:50px;
+    height: 50px;
+    position:fixed;
+    bottom:30px;
+    right:23px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-radius: 10px;
+    background-color:#f2f2f2 ;
+    /* border: 1px solid #ffffff; */
+    transition:0.3s ease-in-out;
+}
+.mainContainerProjects .arrowup:hover{
+    background-color:#ffbcff ;
+    border: 1px solid #ffffff;
+}
+.mainContainerProjects .arrowup .arrowupIcon{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 5px;
+    transition:0.3s ease-in-out;
+}
+
+
+/* Section DetailsCards */
+
+
+
+

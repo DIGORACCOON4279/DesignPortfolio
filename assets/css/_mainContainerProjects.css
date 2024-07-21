@@ -1,0 +1,550 @@
+
+/* Container Products */
+
+/* MenuSide */
+
+.mainContainerProjects{
+    width:100%;
+    height:auto;
+    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 23% 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "heroSection heroSection heroSection"
+    "menuSide context context"
+    "menuSide research research"
+    "menuSide conceptualization conceptualization"
+    "menuSide implementation implementation"
+    "menuSide technologies technologies"
+    "menuSide achievements achievements"
+    "menuSide impacts impacts"
+    "menuSide details details"
+    ;
+}
+.mainContainerProjects .heroSection{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 100px 0px 200px 0px;
+    grid-area: heroSection;
+}
+.mainContainerProjects .heroSection .heroSemed{
+    width:85%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin: auto;
+}
+.mainContainerProjects .heroSection .heroSemed .semedHero:first-child{
+    width:34%;
+    height:auto;
+    object-fit: cover;
+}
+.mainContainerProjects .heroSection .heroSemed .semedHero:last-child{
+    width:24%;
+    height:auto;
+    object-fit: cover;
+}
+.mainContainerProjects .heroSection .heroCineco{
+    width:85%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px auto 0px;
+}
+.mainContainerProjects .heroSection .heroCineco .cinecoHero:first-child{
+    width:45%;
+    height:auto;
+    object-fit: cover;
+    transform: translate(50px);
+    z-index: 1;
+}
+.mainContainerProjects .heroSection .heroCineco .cinecoHero:last-child{
+    width:70%;
+    height:auto;
+    object-fit: cover;
+    transform: translate(-180px);
+    z-index: 9;
+}
+.mainContainerProjects .heroSection .heroCocreva{
+    width:90%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+    margin: auto;
+}
+.mainContainerProjects .heroSection .heroCocreva .cocrevaHero{
+    width:60%;
+    height:100%;
+    object-fit: cover;
+}
+.mainContainerProjects .heroSection .heroResapi{
+    width:85%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin: auto;
+    padding:50px 0px;
+}
+.mainContainerProjects .heroSection .heroResapi .resapiHero{
+    width:45%;
+    height:100%;
+    object-fit: cover;
+}
+.mainContainerProjects .heroSection .heroBreakALeg{
+    width:85%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    margin: 50px auto 0px;
+}
+.mainContainerProjects .heroSection .heroBreakALeg .breakALegHero{
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainContainerProjects .heroSection .heroBreakALeg .breakALegHero:last-child{
+    width:18%;
+    height:auto;
+    object-fit: cover;
+}
+.mainContainerProjects .semed,
+.mainContainerProjects .cineco,
+.mainContainerProjects .cocreva,
+.mainContainerProjects .resapi,
+.mainContainerProjects .breakaLeg{
+    background-image: url("../../img/projectBackground.webp");
+    background-repeat:no-repeat;
+    background-position: center right;
+    background-size: 100%;
+    width:100%;
+}
+
+
+/* Anular o no poner titulos solo Case Study */
+
+/* .mainContainerProjects .heroSection .titles{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:30px;
+    animation:titles 1s linear ;
+}
+@keyframes titles{
+    0%{
+        transform: translateY(0%);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(25%);
+        opacity:1;
+    }
+}
+.mainContainerProjects .heroSection .titles .titleProject{
+    color:#ffffff;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    font-weight: 700;
+}
+.mainContainerProjects .heroSection .titles .paragraph{
+    color:#e6e6e6;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background-color: #c900c949;
+    border-radius: 0px 15px;
+    color: #ffffff;
+    padding: 0px 15px;
+    font-style: italic;
+} */
+
+.mainContainerProjects .menuSide{
+    width:auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: menuSide;
+}
+.mainContainerProjects .menuSide .menuProject{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 70px 20px 0px;
+}
+
+/* List Menu */
+
+.mainContainerProjects .menuSide .menuProject ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.mainContainerProjects .menuSide .menuProject ul li{
+    width:100%;
+    overflow: hidden;
+    list-style-type: none;
+}
+.mainContainerProjects .menuSide .menuProject ul li .itemArea{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 13px;
+    color:#a8a8a8;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 10px;
+    transition:0.3s ease-in-out;
+}
+.mainContainerProjects .menuSide .menuProject ul li .itemArea:hover{
+    color: #6a0dad;
+    background: linear-gradient(to right, #add8e659, #ff8fff8a, #f0f0f0);
+}
+.mainContainerProjects .menuSide .menuProject ul li .itemArea:hover::after{
+    content:"⚡";
+    font-size:0.7rem;
+}
+
+/* Profile */
+
+.mainContainerProjects .menuSide .menuProject .profile {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap:15px;
+    align-items: center;
+}
+.mainContainerProjects .menuSide .menuProject .profile .avatar{
+    width:45px;
+    height: auto;
+    text-align: center;
+}
+.mainContainerProjects .menuSide .menuProject .profile p.paragraph{
+    width:80%;
+    color:#303030;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-wrap: wrap;
+}
+.mainContainerProjects .menuSide .menuProject .profile p.paragraph:last-child{
+    color:#c900c9;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Return Menu */
+
+.mainContainerProjects .menuSide .menuProject .return {
+    place-self: self-start;
+}
+.mainContainerProjects .menuSide .menuProject #menuIcon {
+    display: none;
+}
+.mainContainerProjects .menuSide .menuProject label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainerProjects .menuSide .menuProject label .homeImg {
+    width: 35px;
+    overflow: hidden;
+    border-radius: 100%;
+    cursor:pointer;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+.mainContainerProjects .menuSide .menuProject label .homeImg:hover {
+    box-shadow: 0 0 15px 1px #dadada;
+}
+.mainContainerProjects .menuSide .menuProject label .homeImg:hover + .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(100%);
+}
+.mainContainerProjects .menuSide .menuProject label .tooltip {
+    position: absolute;
+    background-color: #000000;
+    font-size: 0.6rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius:5px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(130%);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Sections */
+
+.mainContainerProjects .section{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.mainContainerProjects .context{
+    grid-area: context;
+    margin-top: 0px;
+}
+.mainContainerProjects .research{
+    grid-area: research;
+}
+.mainContainerProjects .conceptualization{
+    grid-area: conceptualization;
+}
+.mainContainerProjects .implementation{
+    grid-area: implementation;
+}
+.mainContainerProjects .technologies{
+    grid-area: technologies;
+}
+.mainContainerProjects .achievements{
+    grid-area: achievements;
+}
+.mainContainerProjects .impact{
+    grid-area: impacts;
+}
+
+/* Section for more information Detail cards */
+
+.mainContainerProjects .details{
+    width:100%;
+    height:auto;
+    grid-area: details;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.mainContainerProjects .section div.containerSection,
+.mainContainerProjects .details div.containerSection{
+    width:85%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0px;
+    margin: 0px auto;
+    gap:0px;
+}
+.mainContainerProjects .details div.containerSection{
+    width:85%;
+    max-width: 1200px;
+    height:100%;
+    overflow: hidden;
+}
+.mainContainerProjects .details div.containerSection .sectionCards{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:70px;
+    padding: 30px 50px;
+    margin: 100px 0px 0px;
+    transition: transform 0.5s ease-in-out;
+}
+.mainContainerProjects .details div.containerSection .sectionCards .cards{
+    width:55%;
+    max-width: 400px;
+    min-width: 330px;
+    flex: 0 0 auto;
+    min-height:370px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px #0000001a;
+    background-color: #dbdbdb23;
+    box-sizing: border-box;
+}
+.mainContainerProjects .details div.containerSection .sectionCards .cards .image{
+    width:55px;
+    align-self: self-end;
+}
+.mainContainerProjects .details div.containerSection .sectionCards .cards .info{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContainerProjects .details div.containerSection .sectionCards .cards .info p{
+    color:#303030;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
+    width:100%;
+    background-color: #161616;
+    color:#cfcfcf;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition:0.3s ease-in-out;
+}
+.mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem:hover{
+    background-color: #3a3a3a;
+    color:#ffffff;
+}
+
+/* Arrows Slider */
+
+.mainContainerProjects .details .containerSection .arrows{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap:20px;
+}
+.mainContainerProjects .details .containerSection .arrows .arrow{
+    width:50px;
+    height: 50px;
+    padding:5px;
+    border-radius: 10px;
+    background-color:#f2f2f2 ;
+    transition:0.3s ease-in-out;
+    cursor: pointer;
+}
+.mainContainerProjects .details .arrows .arrow:hover{
+    background-color:#ffbcff ;
+    border: 1px solid #ffffff;
+}
+.mainContainerProjects section div.containerSection .title{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #add8e659, #ff8fff8a, #f0f0f0);
+    color:#6a0dad;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+}
+.mainContainerProjects .details div.containerSection .titleDetails{
+    width:100%;
+    height:auto;
+    text-align: center;
+    background: linear-gradient(to right, #add8e659, #ff8fff8a, #f0f0f0);
+    color:#6a0dad;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom:50px;
+}
+
+/* Tags */
+
+.mainContainerProjects .section div.containerSection .tag{
+    width:max-content;
+    background-color: #c900c9;
+    align-self: self-start;
+    margin: 30px 0px 30px;
+    position:sticky;
+    top:90px;
+    border-radius: 5px;
+    z-index: 9;
+}
+.mainContainerProjects .section div.containerSection .titleTag{
+    color:#ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.mainContainerProjects .section .containerSection .containerInfo{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainerProjects .section .containerSection .containerInfo .article{
+    width:100%;
+    height:auto;
+    margin: 20px 0px;
+}
+.mainContainerProjects .section .containerSection .containerInfo .article .subtitle{
+    color: #303030;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+}
+.mainContainerProjects .section .containerSection .containerInfo .article .paragraph{
+    color: #303030;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.mainContainerProjects .section .containerSection .containerInfo .article .paragraph .bold{
+    color: #303030;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+

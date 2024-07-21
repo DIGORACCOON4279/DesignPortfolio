@@ -1,0 +1,213 @@
+
+
+/* Resapi */
+
+/* Context and Challenge Resapi */
+
+.mainContainerProjects .context .containerSection .sectionCovertResapi{
+    width:100%;
+    height:40vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background:
+    url("../../img/resapiPic6.webp") 45% center / 30% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+.mainContainerProjects .context .containerSection .sectionCovertResapi .resapiContext{
+    width:14%;
+    height:auto;
+    margin:auto 40px;
+    background-color:transparent;
+}
+
+/* Reseach Cocreva */
+
+.mainContainerProjects .section .containerSection #infoResapiResearch{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoResapiResearch .sectionSplit{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoResapiResearch .rideaux{
+    width:100%;
+    height:100%;
+    background:
+    url("../../img/resapiPic8.webp") 97% center / 35% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+
+/* Conceptualization Cocreva */
+
+.mainContainerProjects .section .containerSection #infoResapiConceptualization{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoResapiConceptualization .sectionSplit{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoResapiConceptualization .rideaux{
+    width:100%;
+    height:100%;
+    background:
+    url("../../img/resapiPic1.webp") 44% center / 15% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+
+/* Implementation Cocreva */
+
+.mainContainerProjects .section .containerSection #infoResapiImplementation{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoResapiImplementation .sectionSplit{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoResapiImplementation .rideaux{
+    width:100%;
+    height:100%;
+    background:
+    url("../../img/resapiPic9.webp") 75% center / 50% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+
+/* Technology Cocreva */
+
+.mainContainerProjects .section .containerSection #infoResapiTechnology{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoResapiTechnology .sectionSplit{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoResapiTechnology .rideaux{
+    width:100%;
+    height:100%;
+    background:
+    url("../../img/resapiPic9.webp") 70% center / 50% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+
+/* Achievements Cocreva */
+
+.mainContainerProjects .section .containerSection #infoResapiAchievements{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:30px;
+}
+.mainContainerProjects .section .containerSection #infoResapiAchievements .sectionSplit{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoResapiAchievements .rideaux{
+    width:100%;
+    height:100%;
+    background:
+    url("../../img/resapiPic10.webp") 91% center / 30% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+
+/* Impact Cocreva */
+
+.mainContainerProjects .section .containerSection #infoResapiImpact{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:16rem;
+}
+.mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:first-child .rideaux{
+    width:100%;
+    height:70vh;
+    background:
+    url("../../img/resapiPic11.webp") 90% center / 30% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+.mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:last-child .rideaux{
+    width:100%;
+    height:70vh;
+    background:
+    url("../../img/resapiPic3.webp") 45% center / 15% no-repeat fixed padding-box content-box;
+    background-color: transparent;
+}
+.mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit .article{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:auto;
+}
+.mainContainerProjects .section .containerSection .lastRideaux{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0px;
+
+}
+.mainContainerProjects .section .containerSection .lastRideaux .resapiImage{
+    width:65%;
+    height:auto;
+    animation:motion 10s linear infinite
+}
+@keyframes motion{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
