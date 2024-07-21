@@ -14,4 +14,4 @@
 
 
 🚀DeploymentSections </br>
-[Design - Porfolio](https://design-portfolio-gilt-theta.vercel.app/)</br>
+[UX/Ui Design - Porfolio](https://design-portfolio-gilt-theta.vercel.app/)</br>
