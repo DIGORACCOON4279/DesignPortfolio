@@ -8,11 +8,11 @@
 
 ## 👀  UX/Ui DESIGN PORTFOLIO  </br>
 
-Welcome to my ** UX/Ui DESIGN PORTFOLIO **. This repository showcases my work in design and web development, created with a blend of Figma, HTML, CSS3, and JavaScript. All projects have been coded using Visual Studio Code.
+Welcome to my **UX/Ui DESIGN PORTFOLIO**. This repository showcases my work in design and web development, created with a blend of Figma, HTML, CSS3, and JavaScript. All projects have been coded using Visual Studio Code.
 
 ## 🖥  Portfolio Structure </br>
 
-** ⚡ Landing Page:** </br> 
+ ⚡ **Landing Page:** </br> 
 The homepage of my portfolio, designed to capture attention and provide an overview of my skills and projects.</br>
 
  ** ⚡Case Studies: **</br>
@@ -25,7 +25,7 @@ A project focused on creating a complete visual identity for a brand, including 
 
 This section is divided into categories showcasing a variety of additional work:</br>
 
-* ✔ Figma:*</br>
+✔ *Figma:*</br>
 Designs and prototypes created in Figma.
 
 * ✔ Landing Pages: *</br>
