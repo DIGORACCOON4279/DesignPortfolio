@@ -6,11 +6,11 @@
 
 ## Description: 😎</br>
 
-👀 ## UX/Ui DESIGN PORTFOLIO  </br>
+## 👀  UX/Ui DESIGN PORTFOLIO  </br>
 
 Welcome to my **UX/Ui DESIGN PORTFOLIO**. This repository showcases my work in design and web development, created with a blend of Figma, HTML, CSS3, and JavaScript. All projects have been coded using Visual Studio Code.
 
-🖥 ## Portfolio Structure </br>
+## 🖥  Portfolio Structure </br>
 
 ⚡ **Landing Page:** </br> 
 The homepage of my portfolio, designed to capture attention and provide an overview of my skills and projects.</br>
