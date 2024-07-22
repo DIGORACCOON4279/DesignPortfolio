@@ -198,9 +198,9 @@
 .mainContainerProjects .section .containerSection .lastRideaux .resapiImage{
     width:65%;
     height:auto;
-    animation:motion 10s linear infinite
+    animation:motionResapi 10s linear infinite
 }
-@keyframes motion{
+@keyframes motionResapi{
     0%{
         transform: translateY(0%);
     }
