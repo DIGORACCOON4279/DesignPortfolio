@@ -13,13 +13,6 @@
     background-size: cover;
     background-color: transparent;
 }
-/* .mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe,
-.mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
-    width:85%;
-    height:auto;
-    display: flex;
-    margin-top: 20% auto 0%;
-} */
 .mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe{
     margin-bottom: 20%;
 }
@@ -54,10 +47,13 @@
 .mainContainerProjects .section .containerSection #InfoCinecoResearch{
     width:100%;
     height:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
     gap:30px;
 }
 .mainContainerProjects .section .containerSection #InfoCinecoResearch .sectionSplit{
@@ -66,7 +62,7 @@
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #InfoCinecoResearch .cinecoResearch{
-    width:50%;
+    width:100%;
     height:auto;
     position: sticky;
     top:93px;
@@ -96,9 +92,13 @@
 .mainContainerProjects .section .containerSection #InfoConceptualizationCineco{
     width:100%;
     height:auto;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -108,7 +108,7 @@
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #InfoConceptualizationCineco .cinecoDesign{
-    width:50%;
+    width:100%;
     height:auto;
     position: sticky;
     top:157.28px;
@@ -118,10 +118,10 @@
 .mainContainerProjects .section .containerSection #infoWireframesCineco{
     width:100%;
     height:auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 .mainContainerProjects .section .containerSection #infoWireframesCineco .article{
     margin-top:16rem;
@@ -146,18 +146,23 @@
 .mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit{
     width:100%;
     height:auto;
-    display: flex;
+    /* display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     margin: auto;
-    gap:40px;
+    gap:30px;
     margin-top: 16rem;
 }
 .mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit .prototypes{
     width:100%;
     height:auto;
+    order:2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -185,9 +190,13 @@
 .mainContainerProjects .section .containerSection #containerInfoImplementation{
     width:100%;
     height:auto;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -200,7 +209,7 @@
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #containerInfoImplementation .implementationImageCineco{
-    width:50%;
+    width:100%;
     height:auto;
     border-radius:10px;
     position:sticky;
@@ -212,9 +221,13 @@
 .mainContainerProjects .section .containerSection #containerInfoCineco{
     width:100%;
     height:auto;
-    display: flex;
+    /* display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -224,12 +237,15 @@
     display: flex;
     flex-direction: column;
     gap:16rem;
+    order:2;
 }
 .mainContainerProjects .section .containerSection #containerInfoCineco .cinecoTechnology{
-    width:50%;
+    width:100%;
     height:auto;
     position:sticky;
     top:153px;
+    left: 0px;
+    right:0px;
 }
 
 /* Achievements Cineco */
@@ -237,9 +253,13 @@
 .mainContainerProjects .section .containerSection #achievementsCineco{
     width:100%;
     height:auto;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -270,9 +290,13 @@
 .mainContainerProjects .section .containerSection #impactCineco{
     width:100%;
     height:auto;
-    display: flex;
+    /* display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -282,9 +306,10 @@
     display: flex;
     flex-direction: column;
     gap:16rem;
+    order:2;
 }
 .mainContainerProjects .section .containerSection #impactCineco .impactImageCineco{
-    width:50%;
+    width:100%;
     height:auto;
     position:sticky;
     top:153px;
