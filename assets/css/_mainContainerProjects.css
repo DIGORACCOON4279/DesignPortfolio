@@ -54,7 +54,7 @@
     object-fit: cover;
 }
 .mainContainerProjects .heroSection .heroCineco{
-    width:85%;
+    width:80%;
     max-width: 1200px;
     height:auto;
     display: grid;
