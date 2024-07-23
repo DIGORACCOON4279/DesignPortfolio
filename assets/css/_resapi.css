@@ -23,14 +23,14 @@
     background-color:transparent;
 }
 
-/* Reseach Cocreva */
+/* Reseach Resapi */
 
 .mainContainerProjects .section .containerSection #infoResapiResearch{
     width:100%;
     height:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -53,9 +53,9 @@
 .mainContainerProjects .section .containerSection #infoResapiConceptualization{
     width:100%;
     height:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -78,9 +78,9 @@
 .mainContainerProjects .section .containerSection #infoResapiImplementation{
     width:100%;
     height:auto;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -96,6 +96,7 @@
     background:
     url("../../img/resapiPic9.webp") 75% center / 50% no-repeat fixed padding-box content-box;
     background-color: transparent;
+    order: 2;
 }
 
 /* Technology Cocreva */
@@ -103,9 +104,9 @@
 .mainContainerProjects .section .containerSection #infoResapiTechnology{
     width:100%;
     height:auto;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -128,9 +129,9 @@
 .mainContainerProjects .section .containerSection #infoResapiAchievements{
     width:100%;
     height:auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
@@ -188,7 +189,7 @@
 }
 .mainContainerProjects .section .containerSection .lastRideaux{
     width:100%;
-    height:100vh;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
