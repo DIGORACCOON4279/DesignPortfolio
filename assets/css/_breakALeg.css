@@ -88,8 +88,9 @@
     width: 100%;
     height:100%;
     transform:scale(100%, 100%) ;
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
     border-radius: 11px;
+    background-color:#c900c98a;
     backdrop-filter: blur(10px);
 }
 .mainContainerProjects .section .containerSection #infoBreakaLegResearch .block .advertising{
@@ -176,7 +177,8 @@
     transform:scale(100%, 100%) ;
     border-radius: 11px;
     backdrop-filter: blur(10px);
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
+    background-color:#c900c98a;
 }
 .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block .advertising{
     content:"";
@@ -285,7 +287,8 @@
     height:100%;
     border-radius: 11px;
     transform:scale(100%, 100%) ;
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
+    background-color:#c900c98a;
     backdrop-filter: blur(10px);
 }
 .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block .advertising,
@@ -381,7 +384,8 @@
     height:100%;
     border-radius: 11px;
     transform:scale(100%, 100%) ;
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
+    background-color:#c900c98a;
     backdrop-filter: blur(10px);
 }
 .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising{
@@ -467,7 +471,8 @@
     height:100%;
     border-radius: 11px;
     transform:scale(100%, 100%) ;
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
+    background-color:#c900c98a;
     backdrop-filter: blur(10px);
 }
 .mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block .advertising{
@@ -550,7 +555,8 @@
     height:100%;
     border-radius: 11px;
     transform:scale(100%, 100%) ;
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
+    background-color:#c900c98a;
     backdrop-filter: blur(10px);
 }
 .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising{

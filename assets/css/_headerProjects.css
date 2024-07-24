@@ -263,7 +263,8 @@
     width: 100%;
     height:100%;
     transform:scale(100%, 100%);
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
+    background-color: #c900c98a;
     backdrop-filter: blur(10px);
 }
 .headerProjects .navbar .menu .projectsDirect .slide:nth-child(1){
@@ -344,7 +345,7 @@
 }
 .headerProjects .navbar .menu .projectsDirect .slide .block .linkProject{
     width:50%;
-    color:#ffffff;
+    color:#575757;
     font-size: 1rem;
     font-weight: 500;
     padding: 10px;
@@ -353,8 +354,8 @@
     justify-content: center;
     align-items: center;
     gap:15px;
-    background-color: #c900c9;
-    border: 2px solid #c900c9;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
     text-decoration: none;
     transition:0.3s ease-in-out;
     border-radius: 10px;

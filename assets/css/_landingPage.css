@@ -465,7 +465,8 @@
     height:100%;
     transform:scale(100%, 100%);
     border-radius: 20px;
-    background-image: linear-gradient(to bottom, #c900c950, 40%, #c900c950);
+    /* background: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
+    background-color: #c900c98a;
     backdrop-filter: blur(10px);
 }
 .mainContainer .portfolio .sectionProjects .project .blockProject{
@@ -501,7 +502,7 @@
 }
 .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject{
     width:50%;
-    color:#ffffff;
+    color:#575757;
     font-size: 1rem;
     font-weight: 500;
     padding: 10px;
@@ -510,11 +511,11 @@
     justify-content: center;
     align-items: center;
     gap:15px;
-    background-color: #c900c9;
-    border: 2px solid #c900c9;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
     text-decoration: none;
     border-radius: 10px;
-    transition: 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject:hover{
     color:#ffffff;
@@ -523,6 +524,7 @@
 }
 .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject:hover::after{
     content:"✍";
+    font-size: 1rem;
 }
 
 /* Services */
