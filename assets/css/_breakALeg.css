@@ -55,7 +55,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    align-items: flex-start;
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #infoBreakaLegResearch .curtain{
@@ -143,7 +142,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    align-items: flex-start;
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .curtain{
@@ -223,7 +221,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    align-items: flex-start;
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit{
@@ -237,8 +234,9 @@
 .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit .finalBranding{
     width:100%;
     height:auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux{
@@ -343,15 +341,16 @@
     width:100%;
     height:auto;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
     gap:30px;
 }
 .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .sectionSplit{
     width:100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap:16rem;
 }
 .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .curtain{
