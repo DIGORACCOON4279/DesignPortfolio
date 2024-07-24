@@ -31,6 +31,7 @@
     margin: auto;
     padding: 100px 0px 200px 0px;
     grid-area: heroSection;
+    position:relative;
 }
 .mainContainerProjects .heroSection .heroSemed{
     width:85%;

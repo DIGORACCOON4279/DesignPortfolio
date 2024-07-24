@@ -1,0 +1,271 @@
+
+
+/* Tooltip General Component*/
+
+.mainContainerProjects .heroSection .sectionTooltip{
+    width: fit-content;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+.mainContainerProjects .heroSection .sectionTooltip .tooltip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.mainContainerProjects .heroSection .sectionTooltip .tooltip .intro{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap:10px;
+    margin: auto;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 400;
+    opacity: 0;
+    visibility: hidden;
+    padding: 15px;
+    border-radius: 10px;
+    transform: translateY(20%);
+    background-color: #525252;
+    letter-spacing: 2px;
+    z-index: 2;
+    box-shadow: 1px 1px 16px 2px rgb(134, 134, 134);
+    transition: transform 0.3s linear, opacity 0.5s linear;
+}
+.mainContainerProjects .heroSection .sectionTooltip .tooltip .infoIcon:hover + .intro {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+}
+.mainContainerProjects .heroSection .sectionTooltip .tooltip .intro .span{
+    width:100%;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContainerProjects .heroSection .sectionTooltip .tooltip .intro .span .iconInfo{
+    width:20px;
+    font-weight: 800;
+}
+.mainContainerProjects .heroSection .sectionTooltip .tooltip .infoIcon{
+    width: 35px;
+    cursor:help;
+    background-color: #c900c9;
+    border-radius: 50%;
+    transition:0.3s ease-in-out;
+    animation: colorAnimation 5s linear infinite;
+}
+@keyframes colorAnimation{
+    0%{
+        transform:scale(100%);
+        box-shadow: 1px 1px 1px 1px #c900c927;
+    }
+    20%{
+        transform:scale(101%);
+        box-shadow: 1px 1px 6px 8px #c900c927;
+    }
+    40%{
+        transform:scale(110%);
+        box-shadow: 1px 1px 8px 10px #c900c927;
+    }
+    60%{
+        transform:scale(110%);
+        box-shadow: 1px 1px 8px 10px #c900c927;
+    }
+    80%{
+        transform:scale(101%);
+        box-shadow: 1px 1px 6px 8px #c900c927;
+    }
+    100%{
+        transform:scale(100%);
+        box-shadow: 1px 1px 1px 1px #c900c927;
+    }
+}
+.mainContainerProjects .heroSection .sectionTooltip .tooltip .infoIcon:hover{
+    background-color: #c900c981;
+}
+.mainContainerProjects .heroSection .sectionTooltip .signal{
+    width:35px;
+    opacity:1;
+    animation: arrowAnimation 2s linear infinite;
+}
+@keyframes arrowAnimation{
+    0%{
+        opacity:0;
+        transform: translateY(0%);
+    }
+    50%{
+        opacity:0.5;
+        transform: translateY(-35%);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(-75%);
+    }
+}
+
+/* Tooltip Additional Projects */
+
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip .intro{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap:10px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: 300;
+    opacity: 0;
+    visibility: hidden;
+    padding: 15px;
+    border-radius: 10px;
+    transform: translateY(20%);
+    background-color: #525252;
+    letter-spacing: 2px;
+    z-index: 2;
+    box-shadow: 1px 1px 16px 2px rgb(134, 134, 134);
+    transition: transform 0.3s linear, opacity 0.5s linear;
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip .infoIcon:hover + .intro {
+    transform: translateY(0%);
+    opacity: 1;
+    visibility: visible;
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip .intro .span{
+    width:100%;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip .intro .span .iconInfo{
+    width:20px;
+    font-weight: 800;
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip .infoIcon{
+    width: 35px;
+    cursor:help;
+    background-color: #c900c9;
+    border-radius: 50%;
+    transition:0.3s ease-in-out;
+    animation: colorAnimation 5s linear infinite;
+}
+@keyframes colorAnimation{
+    0%{
+        transform:scale(100%);
+        box-shadow: 1px 1px 1px 1px #c900c927;
+    }
+    20%{
+        transform:scale(101%);
+        box-shadow: 1px 1px 6px 8px #c900c927;
+    }
+    40%{
+        transform:scale(110%);
+        box-shadow: 1px 1px 8px 10px #c900c927;
+    }
+    60%{
+        transform:scale(110%);
+        box-shadow: 1px 1px 8px 10px #c900c927;
+    }
+    80%{
+        transform:scale(101%);
+        box-shadow: 1px 1px 6px 8px #c900c927;
+    }
+    100%{
+        transform:scale(100%);
+        box-shadow: 1px 1px 1px 1px #c900c927;
+    }
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip .infoIcon:hover{
+    background-color: #c900c981;
+}
+.mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .signal{
+    width:35px;
+    opacity:1;
+    animation: arrowAnimation 2s linear infinite;
+}
+@keyframes arrowAnimation{
+    0%{
+        opacity:0;
+        transform: translateY(0%);
+    }
+    50%{
+        opacity:0.5;
+        transform: translateY(-35%);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(-75%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

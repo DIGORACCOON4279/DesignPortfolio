@@ -19,14 +19,15 @@
     "menuSide animationMotion animationMotion"
     ;
 }
-.mainContainerAdditionalProjects .heroSection{
+.mainContainerAdditionalProjects .heroSection {
     width:100%;
     height:auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 100px 0px 250px 0px;
+    padding: 100px 0px 0px 0px;
     grid-area: heroSection;
 }
 .mainContainerAdditionalProjects .heroSection::after{
@@ -43,8 +44,20 @@
     z-index:-1;
     margin: auto;
 }
-.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects{
-    width:70%;
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects{
+    width:100%;
+    max-width: 1200px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin: 0px auto;
+    padding: 0px 0px 50px;
+}
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects{
+    width:80%;
     max-width: 1200px;
     height:auto;
     display: flex;
@@ -55,7 +68,7 @@
     margin: 0px auto;
     padding: 150px 0px;
 }
-.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer {
     width: 100%;
     height: auto;
     display: flex;
@@ -64,7 +77,7 @@
     margin: auto;
     perspective: 1000px;
 }
-.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer .card {
     width: 100%;
     height: auto;
     display: flex;
@@ -75,10 +88,10 @@
     transform-style: preserve-3d;
     transition: transform 0.5s;
 }
-.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card:hover {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer .card:hover {
     transform: rotateY(180deg);
 }
-.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card .cardHero {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer .card .cardHero {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -88,10 +101,10 @@
     margin: auto;
     backface-visibility: hidden;
 }
-.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card .back {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer .card .back {
     transform: rotateY(180deg);
 }
-.mainContainerAdditionalProjects .heroSection .heroAdditionalProjects .cardContainer .card .cardHero .bussinessCard {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer .card .cardHero .bussinessCard {
     width: fit-content;
     height: auto;
     border-radius: 20px;
@@ -139,7 +152,7 @@
     margin: 0px auto;
     gap:20px;
 }
-.mainContainerAdditionalProjects .heroSection .titles{
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles{
     width:100%;
     display: flex;
     flex-direction: column;
@@ -157,13 +170,13 @@
         opacity:1;
     }
 }
-.mainContainerAdditionalProjects .heroSection .titles .titleProject{
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles .titleProject{
     color:#ffffff;
     font-size: 5rem;
     line-height: 5.5rem;
     font-weight: 700;
 }
-.mainContainerAdditionalProjects .heroSection .titles .paragraph{
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles .paragraph{
     color:#e6e6e6;
     font-size: 2.2rem;
     font-weight: 700;
@@ -173,7 +186,7 @@
     padding: 0px 15px;
     font-style: italic;
 }
-.mainContainerAdditionalProjects .heroSection .spot{
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot{
     width: 60px;
     height: 60px;
     position: absolute;
@@ -182,43 +195,43 @@
     z-index: -1;
     opacity:0.4;
 }
-.mainContainerAdditionalProjects .heroSection .spot1 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot1 {
     background: linear-gradient(to bottom, #aed9e0, #ffffff);
     top: 10%;
     left: 10%;
     animation-name: moveSpot1;
 }
-.mainContainerAdditionalProjects .heroSection .spot2 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot2 {
     background: linear-gradient(to right, #c8e6c9, #fff9c4);
     top: 70%;
     left: 10%;
     animation-name: moveSpot2;
 }
-.mainContainerAdditionalProjects .heroSection .spot3 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot3 {
     background: linear-gradient(to bottom right, #f8bbd0, #bbdefb);
     top: 50%;
     left: 50%;
     animation-name: moveSpot3;
 }
-.mainContainerAdditionalProjects .heroSection .spot4 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot4 {
     background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
     bottom: 10%;
     right: 20%;
     animation-name: moveSpot4;
 }
-.mainContainerAdditionalProjects .heroSection .spot5 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot5 {
     background: linear-gradient(135deg, #e1bee7, #ffcc80);
     bottom: 70%;
     left: 80%;
     animation-name: moveSpot5;
 }
-.mainContainerAdditionalProjects .heroSection .spot6 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot6 {
     background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
     bottom: 50%;
     right: 100%;
     animation-name: moveSpot6;
 }
-.mainContainerAdditionalProjects .heroSection .spot7 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot7 {
     background: linear-gradient(135deg, #e1bee7, #ffcc80);
     bottom: 35%;
     left: 30%;
