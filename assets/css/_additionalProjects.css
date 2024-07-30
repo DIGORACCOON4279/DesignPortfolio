@@ -113,6 +113,17 @@
     background-color: #3a3a3a1c;
     backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px #0000001a;
+    animation:cardAdditionalProjects 0.8s linear;
+}
+@keyframes cardAdditionalProjects{
+    0%{
+        transform:rotateX(90deg);
+        opacity: 0;
+    }
+    100%{
+        transform:rotateX(0deg);
+        opacity: 1;
+    }
 }
 .mainContainerAdditionalProjects .additionalProjects{
     background-image: url("../../img/projectBackground.webp");
@@ -158,7 +169,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap:30px;
-    animation:titles 1s linear ;
+    animation:titles 0.8s linear ;
 }
 @keyframes titles {
     0%{
