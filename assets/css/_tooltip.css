@@ -43,7 +43,7 @@
     background-color: #525252;
     letter-spacing: 2px;
     z-index: 2;
-    box-shadow: 1px 1px 16px 2px rgb(134, 134, 134);
+    box-shadow: 1px 1px 16px 2px #868686;
     transition: transform 0.3s linear, opacity 0.5s linear;
 }
 .mainContainerProjects .heroSection .sectionTooltip .tooltip .infoIcon:hover + .intro {
@@ -152,9 +152,9 @@
     align-items: self-start;
     gap:10px;
     margin: auto;
-    color: #ffffff;
+    color: white;
     font-size: 0.6rem;
-    font-weight: 300;
+    font-weight: 400;
     opacity: 0;
     visibility: hidden;
     padding: 15px;
@@ -163,7 +163,7 @@
     background-color: #525252;
     letter-spacing: 2px;
     z-index: 2;
-    box-shadow: 1px 1px 16px 2px rgb(134, 134, 134);
+    box-shadow: 1px 1px 16px 2px #868686;
     transition: transform 0.3s linear, opacity 0.5s linear;
 }
 .mainContainerAdditionalProjects .sectionTooltipAdditionalProjects .tooltip .infoIcon:hover + .intro {
