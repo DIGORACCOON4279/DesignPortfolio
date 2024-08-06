@@ -1,19 +1,18 @@
 .mainContainerPage404{
     width:100%;
-    height: 100vh;
+    height: auto;
     background-image: url("../../img/projectBackground.webp");
     background-repeat:no-repeat;
-    background-position: center right;
-    background-size: 100%;
+    background-position: left center;
+    background-size: cover;
 }
 .mainContainerPage404 .cardContainer{
     width:100%;
     height: 100vh;
     background-image: url("../../img/cellphonePage404.webp");
     background-repeat:no-repeat;
-    background-position: left top;
-    background-size: 65%;
-    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     perspective: 1000px;
     position:relative;
 }
