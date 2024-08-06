@@ -12,7 +12,7 @@
     background-image: url("../../img/cellphonePage404.webp");
     background-repeat:no-repeat;
     background-position: left top;
-    background-size: 60%;
+    background-size: 65%;
     background-attachment: fixed;
     perspective: 1000px;
     position:relative;
@@ -82,7 +82,6 @@
     border-radius: 20px;
     cursor: pointer;
     overflow: hidden;
-    background-color: #3a3a3a1c;
     position:relative;
     box-shadow: 0 8px 32px #0000001a;
     animation:returnCard 1s linear;
@@ -105,7 +104,7 @@
     color: #cfcfcf;
     font-size: 1rem;
     font-weight: 500;
-    padding: 10px 70px;
+    padding: 10px 80px;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
