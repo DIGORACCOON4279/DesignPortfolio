@@ -3,7 +3,7 @@
 /* Landing Page */
 
 .mainContainer{
-    width:100vw;
+    width:100%;
     min-width: 1200px;
     height:auto;
     background-image: url("../../img/projectBackground.webp");
@@ -13,7 +13,7 @@
     background-attachment: fixed;
 }
 .mainContainer .heroSection{
-    width:100vw;
+    width:100%;
     max-width: 1200px;
     height:100%;
     display: flex;
