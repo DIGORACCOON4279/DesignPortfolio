@@ -8,7 +8,7 @@
     height:auto;
     background-image: url("../../img/projectBackground.webp");
     background-repeat:no-repeat;
-    background-position:center left;
+    background-position:left center;
     background-size: cover;
     background-attachment: fixed;
 }

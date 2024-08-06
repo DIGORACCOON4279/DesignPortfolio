@@ -129,7 +129,7 @@
 .mainContainerAdditionalProjects .additionalProjects{
     background-image: url("../../img/projectBackground.webp");
     background-repeat:no-repeat;
-    background-position: center right;
+    background-position:left center  ;
     background-size: 100%;
 }
 .mainContainerAdditionalProjects .figma{
