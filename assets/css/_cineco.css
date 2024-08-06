@@ -303,6 +303,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 16rem;
+    overflow: hidden;
 }
 .mainContainerProjects #impact .containerSection .tickets .ticket{
     width:auto;
