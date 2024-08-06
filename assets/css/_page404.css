@@ -25,7 +25,7 @@
     left:50%;
 }
 .mainContainerPage404 .cardContainer .arrow .imageCurveArrow{
-    width: auto;
+    width: 100px;
     height: auto;
     object-fit: cover;
     transform-origin: left;
@@ -38,9 +38,13 @@
         transform:translate(0) scale(80%);
         opacity: 0;
     }
-    100%{
-        transform:translate(25px) scale(90%);
+    50%{
+        transform:translate(40px) scale(90%);
         opacity: 1;
+    }
+    100%{
+        transform:translate(80px) scale(90%);
+        opacity: 0;
     }
 }
 .mainContainerPage404 .cardContainer .card {
