@@ -304,9 +304,10 @@
     align-items: center;
     gap:20px;
     margin-top: 16rem;
+    background-color: aqua;
 }
 .mainContainerProjects #impact .containerSection .tickets .ticket{
-    width:100%;
+    width:auto;
     height:auto;
     filter: drop-shadow(0 0 4px #949494);
     transition:0.3s ease-in-out;
