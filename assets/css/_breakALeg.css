@@ -267,6 +267,7 @@
     background-image: url("../../img/implementationBreakaLeg.webp");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     transition: transform 0.3s ease-in-out;
 }
 .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block::before,
