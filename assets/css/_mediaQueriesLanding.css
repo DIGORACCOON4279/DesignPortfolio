@@ -1,0 +1,91 @@
+
+/* MediaQueries Landing Page */
+
+/* Navbar */
+
+/* Screen 900px */
+
+@media (min-width: 601px) and (max-width: 850px){
+    .header .navbar{
+        position: relative;
+    }
+    .header .navbar .menuSide{
+        display:block;
+    }
+    .header .navbar .menuSide .itemMenu,
+    .header .navbar .menu .menuSide .itemClose{
+        display:block;
+        width:35px;
+        height:auto;
+        cursor:pointer;
+    }
+    .header .navbar #input:checked ~ .menu{
+        opacity: 1;
+        transform: translateX(-45vw);
+    }
+    .header .navbar .menu{
+        width:45vw;
+        height:100vh;
+        padding:25px;
+        position:fixed;
+        top:0%;
+        right:-45vw;
+        opacity: 0;
+        display: flex;
+        background-color: #fdfdfd;
+        transform:translateX(0%);
+        transition:transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+    .header .navbar .menu ul{
+        /* width:100%; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #fdfdfd00;
+        backdrop-filter: blur(10px);
+    }
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .header .navbar{
+        position: relative;
+    }
+    .header .navbar .menuSide{
+        display:block;
+    }
+    .header .navbar .menuSide .itemMenu,
+    .header .navbar .menu .menuSide .itemClose{
+        display:block;
+        width:35px;
+        height:auto;
+        cursor:pointer;
+    }
+    .header .navbar #input:checked ~ .menu{
+        opacity: 1;
+        transform: translateX(-100vw);
+    }
+    .header .navbar .menu{
+        width:100vw;
+        height:100vh;
+        padding:25px;
+        position:fixed;
+        top:0%;
+        right:-100vw;
+        opacity: 0;
+        display: flex;
+        background-color: #fdfdfd;
+        transform:translateX(0%);
+        transition:transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+    .header .navbar .menu ul{
+        /* width:100%; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #fdfdfd00;
+        backdrop-filter: blur(10px);
+    }
+}
