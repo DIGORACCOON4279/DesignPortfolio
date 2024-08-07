@@ -3,7 +3,7 @@
 
 /* Navbar */
 
-/* Screen 900px */
+/* Screen min-width 601px && max-width 850px*/
 
 @media (min-width: 601px) and (max-width: 850px){
     .header .navbar{
@@ -46,8 +46,7 @@
     }
 }
 
-
-
+/* Screen min-width 300px && max-width 600px*/
 
 @media (min-width: 300px) and (max-width: 600px) {
     .header .navbar{

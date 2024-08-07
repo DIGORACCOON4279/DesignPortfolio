@@ -1,0 +1,32 @@
+
+
+/* MediaQueries Projects */
+
+/* Navbar - Header Projects*/
+
+/* Screen min-width 0px && max-width 850px*/
+
+@media (min-width: 601px) and (max-width: 950px){
+    .headerProjects .navbar .menu .projectsDirect{
+        display:none;
+    }
+    .headerProjects .navbar .menu .menuLinks {
+        width: 100vw;
+        align-items: center;
+    }
+    .headerProjects .navbar .menu .menuLinks ul{
+        width:45%;
+    }
+}
+@media (min-width: 0px) and (max-width: 600px){
+    .headerProjects .navbar .menu .projectsDirect{
+        display:none;
+    }
+    .headerProjects .navbar .menu .menuLinks {
+        width: 100vw;
+        align-items: center;
+    }
+    .headerProjects .navbar .menu .menuLinks ul{
+        width:65%;
+    }
+}
