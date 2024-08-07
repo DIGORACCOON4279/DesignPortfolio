@@ -110,7 +110,7 @@
     height: auto;
     border-radius: 20px;
     cursor: pointer;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #3a3a3a1c;
     backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px #0000001a;
