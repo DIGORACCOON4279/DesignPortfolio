@@ -4,7 +4,6 @@
 
 .mainContainer{
     width:100%;
-    min-width: 1200px;
     height:auto;
     background-image: url("../../img/projectBackground.webp");
     background-repeat:no-repeat;
@@ -402,12 +401,6 @@
     width:85%;
     max-width: 1200px;
     height:auto;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    align-items: center; */
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -860,7 +853,7 @@
     gap: 50px
 }
 .webDevelopment .portfolioWeb .laptop{
-    width: auto;
+    width: 80%;
     height: auto;
 }
 .webDevelopment .portfolioWeb div {

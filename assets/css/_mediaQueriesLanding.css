@@ -79,7 +79,6 @@
         transition:transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
     .header .navbar .menu ul{
-        /* width:100%; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -88,7 +87,19 @@
     }
 }
 
+  /* Portfolio Section  */
 
+@media (min-width: 0px) and (max-width: 850px){
+    .mainContainer .portfolio .sectionProjects{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .mainContainer .portfolio .sectionProjects .project{
+        width:auto;
+        height: 60vh;
+    }
+}
 
 /* Services Section  */
 
@@ -115,18 +126,6 @@
         align-items: center;
         gap:100px;
     }
-
-    /* Portfolio Section  */
-
-    .mainContainer .portfolio .sectionProjects{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-    }
-    .mainContainer .portfolio .sectionProjects .project{
-        width:auto;
-        height: 60vh;
-    }
 }
 
 /* Development Section  */
@@ -134,6 +133,13 @@
 /* Screen min-width 0px && max-width 1250px*/
 
 @media (min-width: 0px) and (max-width:1250px){
+    .mainContainer .heroSection{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .webDevelopment .portfolioWeb{
         display: flex;
         flex-direction: column;
@@ -142,6 +148,7 @@
         gap: 70px
     }
     .webDevelopment .portfolioWeb .laptop{
+        width:100%;
         order:1;
     }
     .webDevelopment .portfolioWeb div {
