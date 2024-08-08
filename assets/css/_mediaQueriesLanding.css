@@ -37,7 +37,6 @@
         transition:transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
     .header .navbar .menu ul{
-        /* width:100%; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -88,3 +87,71 @@
         backdrop-filter: blur(10px);
     }
 }
+
+
+
+/* Services Section  */
+
+/* Screen min-width 0px && max-width 1150px*/
+
+@media (min-width: 0px) and (max-width: 1150px){
+    .mainContainer .services .profile{
+        flex-wrap: wrap;
+    }
+    .mainContainer .services .profile .generalDescription{
+        order:1;
+    }
+}
+
+/* About me Section  */
+
+/* Screen min-width 0px && max-width 750px*/
+
+@media (min-width: 0px) and (max-width: 750px){
+    .mainContainer .aboutMe .sectionSplit{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap:100px;
+    }
+
+    /* Portfolio Section  */
+
+    .mainContainer .portfolio .sectionProjects{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    .mainContainer .portfolio .sectionProjects .project{
+        width:auto;
+        height: 60vh;
+    }
+}
+
+/* Development Section  */
+
+/* Screen min-width 0px && max-width 1250px*/
+
+@media (min-width: 0px) and (max-width:1250px){
+    .webDevelopment .portfolioWeb{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px
+    }
+    .webDevelopment .portfolioWeb .laptop{
+        order:1;
+    }
+    .webDevelopment .portfolioWeb div {
+        width:100%;
+        text-align: left;
+    }
+    .webDevelopment .portfolioWeb div .ctaPortfolio{
+        width:30%;
+        text-align: left;
+    }
+}
+
+
