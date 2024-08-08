@@ -108,7 +108,7 @@
     background-position: center right;
     background-size: 100%;
     background-attachment: fixed;
-    transition:  transform 0.15s ease-in-out, opacity 0.2s ease-in-out ;
+    transition: transform 0.15s ease-in-out, opacity 0.2s ease-in-out ;
 }
 .headerProjects .navbar #menuIcon:checked ~ .menu {
     opacity:1;
