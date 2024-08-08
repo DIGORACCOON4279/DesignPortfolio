@@ -1,0 +1,33 @@
+
+
+/* MediaQueries Projects */
+
+/* MenuSide Projects*/
+
+/* Screen min-width 0px && max-width 850px*/
+
+@media (min-width: 0px) and (max-width: 1200px){
+    .mainContainerProjects{
+        width:100%;
+        height:auto;
+        margin-bottom: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "heroSection heroSection"
+        "context context"
+        "research research"
+        "conceptualization conceptualization"
+        "implementation implementation"
+        "technologies technologies"
+        "achievements achievements"
+        "impacts impacts"
+        "details details"
+        ;
+    }
+
+    .mainContainerProjects .menuSide{
+        display:none;
+    }
+}

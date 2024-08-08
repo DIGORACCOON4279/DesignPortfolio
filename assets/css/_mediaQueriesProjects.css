@@ -58,3 +58,29 @@
         width:65%;
     }
 }
+
+/* MenuSide Projects*/
+
+/* Screen min-width 0px && max-width 850px*/
+
+@media (min-width: 0px) and (max-width: 1200px){
+    .mainContainerAdditionalProjects{
+        width:100%;
+        height:auto;
+        margin-bottom: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "heroSection heroSection"
+        "figma figma"
+        "landingPages landingPages"
+        "webDevelopment webDevelopment"
+        "components components"
+        "animationMotion animationMotion"
+        ;
+    }
+    .mainContainerAdditionalProjects .menuSide{
+        display:none;
+    }
+}
