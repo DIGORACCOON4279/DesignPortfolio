@@ -549,11 +549,16 @@
 }
 .mainContainer .services .profile .generalDescription{
     width:30%;
+    min-width: 280px;
+    display: flex;
+    margin:auto;
 }
 .mainContainer .services .profile .generalDescription .options{
     width:100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
     gap:30px;
     text-align: center;
 }

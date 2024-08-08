@@ -12,6 +12,7 @@ footer.contactMe{
 }
 .contactMe .farewell{
     width: 85%;
+    max-width: 1200px;
     height:auto;
     display: flex;
     justify-content:center;
