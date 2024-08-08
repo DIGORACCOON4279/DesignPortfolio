@@ -89,7 +89,7 @@
 
   /* Portfolio Section  */
 
-@media (min-width: 0px) and (max-width: 850px){
+@media (min-width: 0px) and (max-width: 1000px){
     .mainContainer .portfolio .sectionProjects{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -132,7 +132,7 @@
 
 /* Screen min-width 0px && max-width 1250px*/
 
-@media (min-width: 0px) and (max-width:1250px){
+@media (min-width: 0px) and (max-width:1000px){
     .mainContainer .heroSection{
 
         display: flex;

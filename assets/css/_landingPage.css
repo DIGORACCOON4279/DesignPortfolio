@@ -411,7 +411,7 @@
 .mainContainer .portfolio .sectionProjects .project{
     width:100%;
     height: 100%;
-    min-height: 400px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -853,7 +853,7 @@
     gap: 50px
 }
 .webDevelopment .portfolioWeb .laptop{
-    width: 80%;
+    width: 65%;
     height: auto;
 }
 .webDevelopment .portfolioWeb div {
