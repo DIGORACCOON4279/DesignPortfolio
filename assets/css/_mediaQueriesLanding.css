@@ -145,7 +145,6 @@
         width: 100%;
         height: auto;
         overflow: hidden;
-        /* padding: 40px 50px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -185,7 +184,6 @@
             opacity:1;
         }
     }
-}
 
     /* Portfolio Section */
 
@@ -210,4 +208,15 @@
     }
 }
 
+/* Services Section  */
 
+/* Screen min-width 0px && max-width 500px*/
+
+@media (min-width: 0px) and (max-width:450px){
+    .webDevelopment .portfolioWeb div .ctaPortfolio{
+        width:100%;
+    }
+    .mainContainer .services .profile .generalDescription{
+        width:100%;
+    }
+}
