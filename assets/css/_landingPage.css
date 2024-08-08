@@ -62,7 +62,7 @@
     color:#ffffff;
     font-style: italic;
     font-weight: 700;
-    animation:titleLeftSide 0.5s linear ;
+    animation:titleLeftSide 0.5s linear;
 }
 @keyframes titleLeftSide{
     0%{

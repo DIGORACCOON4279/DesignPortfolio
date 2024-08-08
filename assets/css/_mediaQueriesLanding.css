@@ -132,14 +132,63 @@
 
 /* Screen min-width 0px && max-width 1250px*/
 
-@media (min-width: 0px) and (max-width:1000px){
+@media (min-width: 0px) and (max-width:1250px){
     .mainContainer .heroSection{
-
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .mainContainer .heroSection .rightSide,
+    .mainContainer .heroSection .leftSide{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        /* padding: 40px 50px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mainContainer .heroSection .rightSide{
+        flex-wrap: wrap;
+        gap: 10px;
+        border-left: none;
+        border-top:1px solid #ffffff;
+        order: 2;
+    }
+    .mainContainer .heroSection .leftSide .titleLeftSide{
+        animation:titleLeftSide 0.5s linear;
+    }
+    @keyframes titleLeftSide{
+        0%{
+            transform: translateY(200%);
+            opacity:0;
+        }
+        100%{
+            transform: translateY(0%);
+            opacity:1;
+        }
+    }
+    .mainContainer .heroSection .rightSide .itemRightSide{
+        animation: itemRightSide 0.5s linear;
+    }
+    @keyframes itemRightSide{
+        0%{
+            transform: translateY(-500%);
+            opacity:0;
+        }
+        100%{
+            transform: translateY(0%);
+            opacity:1;
+        }
+    }
+}
+
+    /* Portfolio Section */
+
     .webDevelopment .portfolioWeb{
         display: flex;
         flex-direction: column;
