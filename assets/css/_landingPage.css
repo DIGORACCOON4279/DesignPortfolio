@@ -614,6 +614,7 @@
     right:0;
     border-radius: 20px;
     background-image: url("../../img/designBackground.webp");
+    background-position: center;
     background-size: cover;
     animation:figureTwo 45s linear infinite;
 }
@@ -695,7 +696,6 @@
     height:100%;
 }
 .mainContainer .services .profile .slider #experience:checked ~ .userExperience{
-    /* width:100%; */
     visibility: visible;
     opacity: 1;
     background-repeat: no-repeat;
@@ -733,7 +733,7 @@
 .mainContainer .services .profile .slider .visualDesign div .icon{
     width:55px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     align-self: center;
 }
 

@@ -45,9 +45,9 @@
     }
 }
 
-/* Screen min-width 300px && max-width 600px*/
+/* Screen min-width 0px && max-width 600px*/
 
-@media (min-width: 300px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 600px) {
     .header .navbar{
         position: relative;
     }
@@ -211,7 +211,7 @@
 
 /* Services Section  */
 
-/* Screen min-width 0px && max-width 500px*/
+/* Screen min-width 0px && max-width 450px*/
 
 @media (min-width: 0px) and (max-width:450px){
     .webDevelopment .portfolioWeb div .ctaPortfolio{
@@ -378,12 +378,26 @@
     }
 }
 
-/* Screen min-width 280px && max-width 450px*/
+/* Screen min-width 0px && max-width 500px*/
 
 @media (min-width: 0px) and (max-width:500px){
+    .mainContainer .services .profile .generalDescription .options{
+        gap:15px;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .subtitleProject,
+    .mainContainer .portfolio .sectionProjects .project .blockProject .paragraph,
+    .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject{
+        width:90%;
+    }
     .mainContainer .services .profile .slider .userExperience div,
     .mainContainer .services .profile .slider .interactionDesign div,
     .mainContainer .services .profile .slider .visualDesign div{
-        top:10%;
+        top:0%;
+        padding: 10px;
+    }
+    .mainContainer .services .profile .slider .userExperience div .icon,
+    .mainContainer .services .profile .slider .interactionDesign div .icon,
+    .mainContainer .services .profile .slider .visualDesign div .icon{
+        width:30px;
     }
 }
