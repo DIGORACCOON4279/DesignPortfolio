@@ -17,31 +17,38 @@
         display:block;
         width:35px;
         height:auto;
-        cursor:pointer;
+        cursor: pointer;
     }
     .header .navbar #input:checked ~ .menu{
         opacity: 1;
-        transform: translateX(-45vw);
+        visibility:visible;
     }
     .header .navbar .menu{
+        width:100vw;
+        height:100vh;
+        position:fixed;
+        top:0;
+        right:0;
+        opacity: 0;
+        visibility:hidden;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #00000098;
+        transition:  visibility  0.5s ease-in-out, background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    .header .navbar .menu .curtain {
         width:45vw;
         height:100vh;
         padding:25px;
-        position:fixed;
-        top:0%;
-        right:-45vw;
-        opacity: 0;
+        opacity: 1;
         display: flex;
         background-color: #fdfdfd;
-        transform:translateX(0%);
-        transition:transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
-    .header .navbar .menu ul{
+    .header .navbar .menu .curtain ul{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-color: #fdfdfd00;
-        backdrop-filter: blur(10px);
     }
 }
 
@@ -55,11 +62,14 @@
         display:block;
     }
     .header .navbar .menuSide .itemMenu,
-    .header .navbar .menu .menuSide .itemClose{
+    .header .navbar .menu .curtain .menuSide .itemClose{
         display:block;
         width:35px;
         height:auto;
-        cursor:pointer;
+        cursor: pointer;
+    }
+    .header .navbar .menu .curtain .menuSide{
+        align-self: self-start;
     }
     .header .navbar #input:checked ~ .menu{
         opacity: 1;
@@ -78,12 +88,19 @@
         transform:translateX(0%);
         transition:transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     }
-    .header .navbar .menu ul{
+    .header .navbar .menu .curtain{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .navbar .menu .curtain ul{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-color: #fdfdfd00;
-        backdrop-filter: blur(10px);
+        justify-content: space-between;
     }
 }
 

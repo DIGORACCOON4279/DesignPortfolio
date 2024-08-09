@@ -103,11 +103,6 @@
     flex-direction: row-reverse;
     opacity:0;
     visibility: hidden;
-    background-image: url("../../img/backgroundHeroSection.webp");
-    background-repeat:no-repeat;
-    background-position: center right;
-    background-size: 100%;
-    background-attachment: fixed;
     transition: transform 0.15s ease-in-out, opacity 0.2s ease-in-out ;
 }
 .headerProjects .navbar #menuIcon:checked ~ .menu {
