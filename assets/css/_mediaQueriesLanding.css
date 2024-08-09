@@ -220,6 +220,9 @@
     .mainContainer .services .profile .generalDescription{
         width:100%;
     }
+    .mainContainer .aboutMe .profile .generalDescription{
+        width:85%;
+    }
 }
 
 /* letter Size */
