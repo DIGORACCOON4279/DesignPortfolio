@@ -25,11 +25,11 @@
         display:none;
     }
     .headerProjects .navbar .menu .menuLinks {
-        width: 100vw;
+        width: 45vw;
         align-items: center;
     }
     .headerProjects .navbar .menu .menuLinks ul{
-        width:45%;
+        width:90%;
     }
 }
 @media (min-width: 0px) and (max-width: 600px){
@@ -55,7 +55,7 @@
         align-items: center;
     }
     .headerProjects .navbar .menu .menuLinks ul{
-        width:65%;
+        width:70%;
     }
 }
 
