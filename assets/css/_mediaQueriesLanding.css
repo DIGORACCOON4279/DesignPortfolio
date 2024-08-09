@@ -377,3 +377,13 @@
         font-size: 1rem;
     }
 }
+
+/* Screen min-width 280px && max-width 450px*/
+
+@media (min-width: 0px) and (max-width:500px){
+    .mainContainer .services .profile .slider .userExperience div,
+    .mainContainer .services .profile .slider .interactionDesign div,
+    .mainContainer .services .profile .slider .visualDesign div{
+        top:10%;
+    }
+}

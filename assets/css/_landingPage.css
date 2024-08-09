@@ -585,6 +585,7 @@
 }
 .mainContainer .services .profile .generalDescription .options label:hover::after{
     content:"🎯";
+    font-size: 0.7rem;
 }
 .mainContainer .services .profile .slider{
     width:auto;
