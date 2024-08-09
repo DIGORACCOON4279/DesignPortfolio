@@ -63,10 +63,12 @@
     height:auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap:50px;
     margin: 0px auto;
+
     padding: 150px 0px;
 }
 .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer {
@@ -130,7 +132,7 @@
     background-image: url("../../img/projectBackground.webp");
     background-repeat:no-repeat;
     background-position: bottom center;
-    background-size: 100%;
+    background-size: cover;
 }
 .mainContainerAdditionalProjects .figma{
     grid-area: figma;
@@ -174,7 +176,7 @@
 }
 @keyframes titles {
     0%{
-        transform:translate(100%);
+        transform:translate(35%);
         opacity:0;
     }
     100%{

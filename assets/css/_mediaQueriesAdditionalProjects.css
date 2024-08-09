@@ -2,6 +2,39 @@
 
 /* MediaQueries Additional Projects */
 
+@media (min-width: 0px) and (max-width: 950px){
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+        margin: 80px auto 0px;
+        padding: 0px 0px;
+    }
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer{
+        width:100%;
+        height:auto;
+        padding: 250px 0px;
+    }
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles{
+        text-align: center;
+        align-items: center;
+        gap:30px;
+        animation:titles 0.8s linear ;
+    }
+    @keyframes titles {
+        0%{
+            transform:translate(-25%);
+            opacity:0;
+        }
+        100%{
+            transform:translate(0%);
+            opacity:1;
+        }
+    }
+}
+
 /* Additional Project Tooltip*/
 
 /* Screen min-width 0px && max-width 750px*/
