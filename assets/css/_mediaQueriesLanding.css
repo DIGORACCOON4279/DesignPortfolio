@@ -18,6 +18,14 @@
         width:35px;
         height:auto;
         cursor: pointer;
+        overflow: hidden;
+        border-radius: 100%;
+        background-color: #ffffff;
+        transition: 0.3s ease-in-out;
+    }
+    .header .navbar .menuSide .itemMenu:hover,
+    .header .navbar .menu .menuSide .itemClose:hover{
+        box-shadow: 0 0 15px 1px #dadada;
     }
     .header .navbar #input:checked ~ .menu{
         opacity: 1;
@@ -67,9 +75,19 @@
         width:35px;
         height:auto;
         cursor: pointer;
+        overflow: hidden;
+        border-radius: 100%;
+        background-color: #ffffff;
+        transition: 0.3s ease-in-out;
+    }
+    .header .navbar .menuSide .itemMenu:hover,
+    .header .navbar .menu .menuSide .itemClose:hover{
+        box-shadow: 0 0 15px 1px #dadada;
     }
     .header .navbar .menu .curtain .menuSide{
+        margin-left: 20px;
         align-self: self-start;
+        border-radius: 100%;
     }
     .header .navbar #input:checked ~ .menu{
         opacity: 1;
