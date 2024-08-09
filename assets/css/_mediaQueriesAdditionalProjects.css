@@ -33,6 +33,12 @@
             opacity:1;
         }
     }
+    .mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(1){
+        transform:  translateX(-50%);
+    }
+    .mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(2){
+        transform:  translateX(50%);
+    }
 }
 
 /* Additional Project Tooltip*/
@@ -68,3 +74,47 @@
         display:none;
     }
 }
+
+/* Screen min-width 0px && max-width 460px*/
+
+@media (max-width: 420px){
+
+.mainContainerAdditionalProjects .section .containerSection .arrows{
+    position: absolute;
+    top: 60%;
+    transform:  translateY(20%);
+    }
+}
+
+/* Hero Section Font-Size 750px */
+
+@media (min-width: 0px) and (max-width: 750px){
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles .titleProject{
+        font-size: 4.5rem;
+    }
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles .paragraph{
+        font-size: 2rem;
+    }
+}
+
+/* Hero Section Font-Size 400px */
+
+@media (min-width: 0px) and (max-width: 400px){
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles .titleProject{
+        font-size: 3.5rem;
+    }
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .titles .paragraph{
+        font-size: 1.5rem;
+    }
+}
+
+/* Hero Section Card 500px */
+
+@media (min-width: 0px) and (max-width: 500px){
+    .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer .card .cardHero .bussinessCard {
+        width:80%;
+        height: auto;
+    }
+}
+
+

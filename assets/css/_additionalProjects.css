@@ -108,7 +108,7 @@
     transform: rotateY(180deg);
 }
 .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .heroAdditionalProjects .cardContainer .card .cardHero .bussinessCard {
-    width: fit-content;
+    width:fit-content;
     height: auto;
     border-radius: 20px;
     cursor: pointer;
@@ -546,6 +546,7 @@
     padding:100px 40px;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    z-index: 0;
     transition: transform 0.5s ease-in-out;
 }
 .mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards{
@@ -686,7 +687,7 @@
     border-radius: 5px;
     cursor: pointer;
     background-color:#f2f2f2 ;
-    transform:  translateX(-50%);
+    transform:  translateX(0%);
     transition:0.3s ease-in-out;
 }
 .mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(1){
