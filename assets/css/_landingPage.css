@@ -92,9 +92,6 @@
     line-height: 90px;
     color: #868686;
 }
-.mainContainer .heroSection .rightSide .titleRightSide .emoticon{
-    font-size:35px;
-}
 .mainContainer .heroSection .rightSide .titleRightSide .name{
     background-color: #c900c949;
     border-radius: 0px 15px;
@@ -122,7 +119,6 @@
 .mainContainer .heroSection .rightSide .socialMedia ul li .item .tooltip{
     position: absolute;
     background-color: #000000;
-    font-size: 3rem;
     color:#ffffff;
     font-weight: 600;
     text-align: center;
@@ -841,13 +837,13 @@
 
 /* Web Development */
 
-.webDevelopment .sectionWebDevelopment p{
+/* .webDevelopment .sectionWebDevelopment p{
     color: #757575;
     font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 25px;
-}
+} */
 .webDevelopment .portfolioWeb{
     width: 85%;
     max-width: 1200px;

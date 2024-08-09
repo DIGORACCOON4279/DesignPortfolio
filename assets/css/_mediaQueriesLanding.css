@@ -120,6 +120,7 @@
 
 @media (min-width: 0px) and (max-width: 750px){
     .mainContainer .aboutMe .sectionSplit{
+        width:100%;
         display: flex;
         flex-direction: column;
         justify-content:center;
@@ -218,5 +219,161 @@
     }
     .mainContainer .services .profile .generalDescription{
         width:100%;
+    }
+}
+
+/* letter Size */
+
+/* Screen min-width 0px && max-width 750px*/
+
+@media (min-width: 0px) and (max-width:750px){
+    .mainContainer .heroSection .leftSide .titleLeftSide{
+        font-size: 4.5rem;
+    }
+    .mainContainer .heroSection .rightSide .titleRightSide{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .mainContainer .portfolio .titleSection,
+    .mainContainer .services .titleSection,
+    .mainContainer .aboutMe .titleSection,
+    .mainContainer .webDevelopment .titleSection{
+        font-size: 2rem;
+        color:#afafaf;
+    }
+    .mainContainer .portfolio .sectionPortfolio p{
+        font-size: 0.8rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .subtitleProject{
+        font-size: 1.8rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .paragraph{
+        font-size: 0.8rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject{
+        font-size: 0.9rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject.ctaProject:hover::after{
+        font-size: 0.9rem;
+    }
+    .mainContainer .services .sectionServices p{
+        font-size: 0.8rem;
+    }
+    .mainContainer .services .profile .generalDescription .options label{
+        font-size: 0.8rem;
+    }
+    .mainContainer .services .profile .slider .userExperience div,
+    .mainContainer .services .profile .slider .interactionDesign div,
+    .mainContainer .services .profile .slider .visualDesign div{
+        top:30%;
+    }
+    .mainContainer .services .profile .slider .userExperience div p,
+    .mainContainer .services .profile .slider .interactionDesign div p,
+    .mainContainer .services .profile .slider .visualDesign div p{
+        font-size: 0.6rem;
+    }
+    .mainContainer .sectionAboutMe h4{
+        font-size: 1.2rem;
+    }
+    .mainContainer .sectionAboutMe p{
+        font-size: 0.8rem;
+    }
+    .webDevelopment .portfolioWeb div p{
+        font-size: 0.8rem;
+    }
+    .webDevelopment .portfolioWeb div .ctaPortfolio{
+        font-size: 0.9rem;
+    }
+    .webDevelopment .portfolioWeb .ctaPortfolio:hover::after{
+        font-size: 0.8rem;
+    }
+
+    /* Footer  */
+
+    .contactMe .farewell{
+        font-size: 0.8rem;
+    }
+    .contactMe .titleSection{
+        font-size: 1rem;
+    }
+}
+
+/* letter Size */
+
+/* Screen min-width 280px && max-width 450px*/
+
+@media (min-width: 280px) and (max-width:450px){
+    .mainContainer .heroSection .rightSide,
+    .mainContainer .heroSection .leftSide{
+        padding: 40px 0px;
+    }
+    .mainContainer .heroSection .leftSide .titleLeftSide{
+        font-size: 3.5rem;
+    }
+    .mainContainer .heroSection .rightSide .titleRightSide{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+    .mainContainer .portfolio .titleSection,
+    .mainContainer .services .titleSection,
+    .mainContainer .aboutMe .titleSection,
+    .mainContainer .webDevelopment .titleSection{
+        font-size: 2rem;
+        color:#afafaf;
+    }
+    .mainContainer .portfolio .sectionPortfolio p{
+        font-size: 0.8rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .subtitleProject{
+        font-size: 1.8rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .paragraph{
+        font-size: 0.8rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject{
+        font-size: 0.9rem;
+    }
+    .mainContainer .portfolio .sectionProjects .project .blockProject .ctaProject.ctaProject:hover::after{
+        font-size: 0.9rem;
+    }
+    .mainContainer .services .sectionServices p{
+        font-size: 0.8rem;
+    }
+    .mainContainer .services .profile .generalDescription .options label{
+        font-size: 0.8rem;
+    }
+    .mainContainer .services .profile .slider .userExperience div,
+    .mainContainer .services .profile .slider .interactionDesign div,
+    .mainContainer .services .profile .slider .visualDesign div{
+        top:30%;
+    }
+    .mainContainer .services .profile .slider .userExperience div p,
+    .mainContainer .services .profile .slider .interactionDesign div p,
+    .mainContainer .services .profile .slider .visualDesign div p{
+        font-size: 0.6rem;
+    }
+    .mainContainer .sectionAboutMe h4{
+        font-size: 1.2rem;
+    }
+    .mainContainer .sectionAboutMe p{
+        font-size: 0.8rem;
+    }
+    .webDevelopment .portfolioWeb div p{
+        font-size: 0.8rem;
+    }
+    .webDevelopment .portfolioWeb div .ctaPortfolio{
+        font-size: 0.9rem;
+    }
+    .webDevelopment .portfolioWeb .ctaPortfolio:hover::after{
+        font-size: 0.8rem;
+    }
+
+    /* Footer  */
+
+    .contactMe .farewell{
+        font-size: 0.8rem;
+    }
+    .contactMe .titleSection{
+        font-size: 1rem;
     }
 }
