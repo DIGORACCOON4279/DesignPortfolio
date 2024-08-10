@@ -100,14 +100,14 @@
 @media (min-width: 0px) and (max-width: 680px){
     .mainContainerProjects .section .containerSection .title,
     .mainContainerProjects .details div.containerSection .titleDetails{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         text-align: left;
     }
 
     /* Project Section Titles */
 
     .mainContainerProjects .section .containerSection .containerInfo .article .subtitle{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .mainContainerProjects .section .containerSection .containerInfo .article .paragraph{
         font-size: 0.8rem;
