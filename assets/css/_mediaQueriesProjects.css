@@ -171,15 +171,26 @@
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px){
-    .mainContainerProjects .section .containerSection #containerInfo{
+    .mainContainerProjects .section .containerSection #containerInfo,
+    .mainContainerProjects .section .containerSection #InfoConceptualization{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
     }
-    .mainContainerProjects .section .containerSection #containerInfo .sectionSplit{
+    .mainContainerProjects .section .containerSection #containerInfo .sectionSplit,
+    .mainContainerProjects .section .containerSection #InfoConceptualization .sectionSplit{
         gap:8rem;
         order:1;
     }
-    .mainContainerProjects .section .containerSection #containerInfo .semedResearch{
+    .mainContainerProjects .section .containerSection #containerInfo .semedResearch,
+    .mainContainerProjects .section .containerSection #InfoConceptualization .imgConceptualization{
         position: static;
     }
+    .mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe,
+    .mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
+        margin: 8rem auto 100px;
+    }
+    .mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
+        margin-bottom: 0px;
+    }
+
 }
