@@ -214,3 +214,33 @@
     }
 }
 
+/* HeroSections*/
+
+/* Screen min-width 0px && max-width 750px*/
+
+@media (min-width: 551px) and (max-width: 750px){
+    .mainContainerProjects .heroSection .heroSemed{
+        width:85%;
+        justify-content: center;
+        gap:0px;
+    }
+    .mainContainerProjects .heroSection .heroSemed .semedHero:first-child{
+        width:54%;
+    }
+    .mainContainerProjects .heroSection .heroSemed .semedHero:last-child{
+        width:34%;
+    }
+}
+@media (min-width: 0px) and (max-width: 550px){
+    .mainContainerProjects .heroSection .heroSemed{
+        width:85%;
+        justify-content: center;
+        gap:0px;
+    }
+    .mainContainerProjects .heroSection .heroSemed .semedHero:first-child{
+        width:64%;
+    }
+    .mainContainerProjects .heroSection .heroSemed .semedHero:last-child{
+        width:44%;
+    }
+}
