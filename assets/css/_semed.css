@@ -169,7 +169,6 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
-
 }
 .mainContainerProjects #impact .containerSection .containerInfo .infoImpact{
     width:100%;
@@ -199,7 +198,7 @@
 .mainContainerProjects .section .containerSection .impactCellphone .semedImpact{
     width:25%;
     height:auto;
-    animation:motion 10s linear infinite
+    animation:motion 10s linear infinite;
 }
 @keyframes motion{
     0%{

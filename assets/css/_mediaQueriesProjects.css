@@ -197,8 +197,16 @@
         margin-bottom: 0px;
     }
     .mainContainerProjects #technologies .containerSection .containerInfo .infoSplit,
-    .mainContainerProjects #achievements .containerSection .containerInfo .infoSplit{
+    .mainContainerProjects #achievements .containerSection .containerInfo .infoSplit,
+    .mainContainerProjects #impact .containerSection .containerInfo .infoImpact{
         gap:8rem;
     }
+}
 
+/* Screen min-width 0px && max-width 950px*/
+
+@media (min-width: 0px) and (max-width: 950px){
+    .mainContainerProjects .section .containerSection .containerInfo .sectionImpact{
+        display:none;
+    }
 }
