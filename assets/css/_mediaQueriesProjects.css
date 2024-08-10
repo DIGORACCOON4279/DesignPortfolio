@@ -118,3 +118,68 @@
     }
 }
 
+ /* Project Containers */
+
+ /* Semed */
+
+ /* Context & challenge */
+
+/* Screen min-width 801x && max-width 750px*/
+
+@media (min-width: 901px) and (max-width: 1200px){
+    .mainContainerProjects .section .containerSection .containerInfo .contextCellphone .semedContext{
+        width:45%;
+    }
+    .mainContainerProjects .section .containerSection .impactCellphone .semedImpact{
+        width:30%;
+    }
+}
+
+/* Screen min-width 601px && max-width 900px*/
+
+@media (min-width: 601px) and (max-width: 900px){
+    .mainContainerProjects .section .containerSection .containerInfo .contextCellphone .semedContext{
+        width:55%;
+    }
+    .mainContainerProjects .section .containerSection .impactCellphone .semedImpact{
+        width:40%;
+    }
+}
+
+/* Screen min-width 451px && max-width 600px*/
+
+@media (min-width: 451px) and (max-width: 600px){
+    .mainContainerProjects .section .containerSection .containerInfo .contextCellphone .semedContext{
+        width:75%;
+    }
+    .mainContainerProjects .section .containerSection .impactCellphone .semedImpact{
+        width:50%;
+    }
+}
+
+/* Screen min-width 0px && max-width 450px*/
+
+@media (min-width: 0px) and (max-width: 450px){
+    .mainContainerProjects .section .containerSection .containerInfo .contextCellphone .semedContext{
+        width:85%;
+    }
+    .mainContainerProjects .section .containerSection .impactCellphone .semedImpact{
+        width:55%;
+    }
+}
+
+/* Screen min-width 0px && max-width 550px*/
+
+@media (min-width: 0px) and (max-width: 550px){
+    .mainContainerProjects .section .containerSection #containerInfo{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .mainContainerProjects .section .containerSection #containerInfo .sectionSplit{
+        gap:8rem;
+        order:1;
+    }
+    .mainContainerProjects .section .containerSection #containerInfo .semedResearch{
+        position: static;
+    }
+}
