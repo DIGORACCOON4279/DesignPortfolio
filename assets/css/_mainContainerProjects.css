@@ -135,7 +135,7 @@
     width:60%;
     height:100%;
     object-fit: cover;
-    animation:cocrevaHero 0.8s linear; 
+    animation:cocrevaHero 0.8s linear;
 }
 @keyframes cocrevaHero{
     0%{
@@ -157,6 +157,7 @@
     gap:25px;
     margin: auto;
     padding:50px 0px;
+    overflow: hidden;
 }
 .mainContainerProjects .heroSection .heroResapi .resapiHero{
     width:45%;
