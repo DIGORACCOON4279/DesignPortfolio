@@ -173,6 +173,12 @@
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px){
+    .mainContainerProjects #context .containerSection .containerInfo{
+        gap:8rem;
+    }
+    .mainContainerProjects #conceptualization .containerSection{
+        gap:8rem;
+    }
     .mainContainerProjects .section .containerSection #containerInfo,
     .mainContainerProjects .section .containerSection #InfoConceptualization,
     .mainContainerProjects #technologies .containerSection .containerInfo,
@@ -231,6 +237,10 @@
         height:15vh;
     }
 }
+
+
+
+
 
 /* Screen min-width 0px && max-width 750px*/
 
