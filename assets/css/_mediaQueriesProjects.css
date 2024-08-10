@@ -248,28 +248,27 @@
 
 @media (min-width: 551px) and (max-width: 750px){
     .mainContainerProjects .heroSection .heroSemed{
-        width:85%;
+        width:95%;
         justify-content: center;
-        gap:0px;
     }
-    .mainContainerProjects .heroSection .heroSemed .semedHero:first-child{
+    /* .mainContainerProjects .heroSection .heroSemed .semedHero:first-child{
         width:54%;
     }
     .mainContainerProjects .heroSection .heroSemed .semedHero:last-child{
         width:34%;
-    }
+    } */
 }
 @media (min-width: 0px) and (max-width: 550px){
     .mainContainerProjects .heroSection .heroSemed{
-        width:85%;
+        width:100%;
         justify-content: center;
-        gap:0px;
+        gap:20px;
     }
     .mainContainerProjects .heroSection .heroSemed .semedHero:first-child{
-        width:64%;
+        width:44%;
     }
     .mainContainerProjects .heroSection .heroSemed .semedHero:last-child{
-        width:44%;
+        width:30%;
     }
 }
 
