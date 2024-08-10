@@ -216,6 +216,22 @@
 
 /* HeroSections*/
 
+/* Screen min-width 0px && max-width 950px*/
+
+@media (min-width:0px) and (max-width: 950px){
+    .mainContainerProjects .context .containerSection .sectionCovertSemed{
+        background-attachment: local;
+        background-size: cover;
+        background-position: center right;
+        height:25vh;
+    }
+}
+@media (min-width: 0px) and (max-width: 550px){
+    .mainContainerProjects .context .containerSection .sectionCovertSemed{
+        height:15vh;
+    }
+}
+
 /* Screen min-width 0px && max-width 750px*/
 
 @media (min-width: 551px) and (max-width: 750px){
