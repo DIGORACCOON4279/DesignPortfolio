@@ -317,3 +317,31 @@
         width:100%;
     }
 }
+
+/* Break a Leg */
+
+@media (min-width:551px) and (max-width: 750px){
+    .mainContainerProjects .heroSection .heroBreakALeg{
+        width:85%;
+        gap:50px;
+    }
+    .mainContainerProjects .heroSection .heroBreakALeg .breakALegHero:first-child{
+        width: 75%;
+    }
+    .mainContainerProjects .heroSection .heroBreakALeg .breakALegHero:last-child{
+        width:25%;
+    }
+}
+
+@media (min-width:0px) and (max-width: 550px){
+    .mainContainerProjects .heroSection .heroBreakALeg{
+        width:90%;
+        gap:20px;
+    }
+    .mainContainerProjects .heroSection .heroBreakALeg .breakALegHero:first-child{
+        width: 85%;
+    }
+    .mainContainerProjects .heroSection .heroBreakALeg .breakALegHero:last-child{
+        width:30%;
+    }
+}
