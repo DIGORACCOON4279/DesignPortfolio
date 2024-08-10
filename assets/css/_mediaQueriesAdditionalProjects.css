@@ -117,4 +117,16 @@
     }
 }
 
+@media (min-width: 0px) and (max-width: 680px){
+    .mainContainerAdditionalProjects .section .containerSection .containerInfo .title{
+        font-size: 1.7rem;
+    }
+
+    /* Project Section Titles */
+
+    .mainContainerAdditionalProjects .section div.containerSection .contentParagraph .paragraph{
+        font-size: 0.8rem;
+    }
+}
+
 

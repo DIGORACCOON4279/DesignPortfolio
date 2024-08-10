@@ -97,3 +97,24 @@
     }
 }
 
+@media (min-width: 0px) and (max-width: 680px){
+    .mainContainerProjects .section .containerSection .title{
+        font-size: 1.7rem;
+    }
+
+    /* Project Section Titles */
+
+    .mainContainerProjects .section .containerSection .containerInfo .article .subtitle{
+        font-size: 1.1rem;
+    }
+    .mainContainerProjects .section .containerSection .containerInfo .article .paragraph{
+        font-size: 0.8rem;
+    }
+    .mainContainerProjects .section .containerSection .containerInfo .article .paragraph .bold{
+        font-size: 0.8rem;
+    }
+    .mainContainerProjects .details div.containerSection .sectionCards .cards .info p {
+        font-size: 0.8rem;
+    }
+}
+
