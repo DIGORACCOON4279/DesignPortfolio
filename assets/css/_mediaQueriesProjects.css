@@ -191,6 +191,7 @@
     }
     .mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe,
     .mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
+        width:100%;
         margin: 8rem auto 100px;
     }
     .mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
@@ -210,3 +211,4 @@
         display:none;
     }
 }
+
