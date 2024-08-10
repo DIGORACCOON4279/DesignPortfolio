@@ -172,7 +172,9 @@
 
 @media (min-width: 0px) and (max-width: 550px){
     .mainContainerProjects .section .containerSection #containerInfo,
-    .mainContainerProjects .section .containerSection #InfoConceptualization{
+    .mainContainerProjects .section .containerSection #InfoConceptualization,
+    .mainContainerProjects #technologies .containerSection .containerInfo,
+    .mainContainerProjects #achievements .containerSection .containerInfo{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
     }
@@ -182,7 +184,9 @@
         order:1;
     }
     .mainContainerProjects .section .containerSection #containerInfo .semedResearch,
-    .mainContainerProjects .section .containerSection #InfoConceptualization .imgConceptualization{
+    .mainContainerProjects .section .containerSection #InfoConceptualization .imgConceptualization,
+    .mainContainerProjects #technologies .containerSection .containerInfo .mockups,
+    .mainContainerProjects #achievements .containerSection .containerInfo .mockups{
         position: static;
     }
     .mainContainerProjects .section .containerSection .containerInfo .article .wireframes .wireframe,
@@ -191,6 +195,10 @@
     }
     .mainContainerProjects .section .containerSection .containerInfo .article .prototypes .prototype{
         margin-bottom: 0px;
+    }
+    .mainContainerProjects #technologies .containerSection .containerInfo .infoSplit,
+    .mainContainerProjects #achievements .containerSection .containerInfo .infoSplit{
+        gap:8rem;
     }
 
 }
