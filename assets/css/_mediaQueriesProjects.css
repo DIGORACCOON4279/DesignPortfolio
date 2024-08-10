@@ -173,11 +173,15 @@
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px){
-    .mainContainerProjects #context .containerSection .containerInfo{
+    .mainContainerProjects #context .containerSection .containerInfo,
+    .mainContainerProjects #implementation .containerSection .containerInfo{
         gap:8rem;
     }
-    .mainContainerProjects #conceptualization .containerSection{
-        gap:8rem;
+    .mainContainerProjects #context .containerSection .containerInfo .contextCellphone{
+        margin-top: -50px;
+    }
+    .mainContainerProjects #conceptualization .containerSection .containerInfo .sectionSplit:last-child{
+        margin-bottom:5rem;
     }
     .mainContainerProjects .section .containerSection #containerInfo,
     .mainContainerProjects .section .containerSection #InfoConceptualization,
