@@ -228,6 +228,8 @@
 
 /* Screen min-width 0px && max-width 950px*/
 
+/* Semed */
+
 @media (min-width:0px) and (max-width: 950px){
     .mainContainerProjects .context .containerSection .sectionCovertSemed{
         background-attachment: local;
@@ -241,10 +243,6 @@
         height:15vh;
     }
 }
-
-
-
-
 
 /* Screen min-width 0px && max-width 750px*/
 
@@ -272,5 +270,50 @@
     }
     .mainContainerProjects .heroSection .heroSemed .semedHero:last-child{
         width:44%;
+    }
+}
+
+/* Cineco */
+
+@media (min-width:0px) and (max-width: 750px){
+    .mainContainerProjects .heroSection .heroCineco{
+        width:100%;
+    }
+}
+
+/* Cocreva */
+
+@media (min-width:0px) and (max-width: 750px){
+    .mainContainerProjects .heroSection .heroCocreva{
+        width:100%;
+    }
+    .mainContainerProjects .heroSection .heroCocreva .cocrevaHero{
+        width:80%;
+    }
+}
+
+@media (min-width:0px) and (max-width: 550px){
+    .mainContainerProjects .heroSection .heroCocreva .cocrevaHero{
+        width:100%;
+    }
+}
+
+/* Resapi */
+
+@media (min-width:550px) and (max-width: 750px){
+    .mainContainerProjects .heroSection .heroResapi{
+        width:95%;
+    }
+    .mainContainerProjects .heroSection .heroResapi .resapiHero{
+        width:50%;
+    }
+}
+
+@media (min-width:0px) and (max-width: 550px){
+    .mainContainerProjects .heroSection .heroResapi{
+        width:55%;
+    }
+    .mainContainerProjects .heroSection .heroResapi .resapiHero{
+        width:100%;
     }
 }

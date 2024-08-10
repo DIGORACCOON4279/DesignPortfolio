@@ -92,7 +92,7 @@
     object-fit: cover;
     transform: translate(20px);
     z-index: 1;
-    animation:cinecoScreens 0.8s linear; ;
+    animation:cinecoScreens 0.8s linear;
 }
 @keyframes cinecoScreens{
     0%{
@@ -110,7 +110,7 @@
     object-fit: cover;
     transform: translate(-20px);
     z-index: 9;
-    animation:cinecoLaptop 0.8s linear; ;
+    animation:cinecoLaptop 0.8s linear;
 }
 @keyframes cinecoLaptop{
     0%{
@@ -135,7 +135,7 @@
     width:60%;
     height:100%;
     object-fit: cover;
-    animation:cocrevaHero 0.8s linear; ;
+    animation:cocrevaHero 0.8s linear; 
 }
 @keyframes cocrevaHero{
     0%{
