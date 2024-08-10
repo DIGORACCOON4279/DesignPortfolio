@@ -101,7 +101,7 @@
     .mainContainerProjects .section .containerSection .title,
     .mainContainerProjects .details div.containerSection .titleDetails{
         font-size: 1.3rem;
-        text-align: left;
+        text-align: center;
     }
 
     /* Project Section Titles */
