@@ -317,6 +317,9 @@
         order:0;
         position: static;
     }
+    .mainContainerProjects .section .containerSection .sectionLaptopCellphone {
+        margin-top: 8rem;
+    }
     .mainContainerProjects #impact .containerSection .tickets{
         margin-top: 8rem;
     }
