@@ -317,6 +317,13 @@
         order:0;
         position: static;
     }
+    .mainContainerProjects #impact .containerSection .tickets{
+        margin-top: 8rem;
+    }
+    .mainContainerProjects #impact .containerSection .tickets .ticket{
+        width:100%;
+        height:auto;
+    }
 }
 
 /* -- Cineco Conceptualization--*/
