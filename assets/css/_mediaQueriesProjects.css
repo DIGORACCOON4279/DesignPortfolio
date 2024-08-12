@@ -264,7 +264,7 @@
     }
 }
 
-/* -- Cineco Research and Discovery --*/
+/* -- Cineco Research and Discovery & Conceptualization--*/
 
 /* Screen min-width 0px && max-width 550px*/
 
@@ -303,6 +303,17 @@
     }
     .mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit {
         margin-top: 8rem;
+    }
+}
+
+/* -- Cineco Conceptualization--*/
+
+/* Screen min-width 0px && max-width 1200px*/
+
+@media (min-width: 0px) and (max-width: 1200px){
+    .mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit .prototypeCineco {
+        width: 100%;
+    }
 }
 
 
