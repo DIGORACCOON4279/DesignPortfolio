@@ -350,7 +350,45 @@
 }
 
 
+/* Cocreva */
 
+ /* Context & challenge */
+
+/* Screen min-width 901px && max-width 1200px*/
+
+@media (min-width: 551px) and (max-width: 950px){
+    .mainContainerProjects .context .containerSection .sectionCovertCocreva{
+        height: 25vh;
+    }
+}
+
+/* Screen min-width 0px && max-width 550px*/
+
+@media (min-width: 0px) and (max-width: 550px){
+    .mainContainerProjects .context .containerSection .sectionCovertCocreva{
+        height: 15vh;
+    }
+    .mainContainerProjects #research .containerSection #infoCocrevaResearch,
+    .mainContainerProjects #conceptualization .containerSection #infoCocrevaConceptualization,
+    .mainContainerProjects #implementation .containerSection #infoCocrevaImplementation{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        gap:8rem;
+    }
+    .mainContainerProjects .section .containerSection #infoCocrevaTechnology .sectionSplit,
+    .mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit {
+        gap: 8rem;
+    }
+    .containerSection #InfoConceptualization, .mainContainerProjects #technologies .containerSection .containerInfo,
+    .mainContainerProjects #achievements .containerSection .containerInfo{
+        gap:8rem;
+    }
+    .mainContainerProjects .section .containerSection .infoCocrevaImpact .rideaux .image {
+        width: 100%;
+        margin-top: 8rem;
+}
 
 
 

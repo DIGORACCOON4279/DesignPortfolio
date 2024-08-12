@@ -9,7 +9,7 @@
     border-radius: 10px;
     margin-top: 20px;
     background:
-    url("../../img/cocrevaPic1.webp")  5% center / 45% no-repeat  padding-box content-box,
+    url("../../img/cocrevaPic1.webp")  5% center / 45% no-repeat padding-box content-box,
     url("../../img/cocrevaPic8.webp") 85% center / 13% no-repeat fixed padding-box content-box;
     background-color: transparent;
 }
