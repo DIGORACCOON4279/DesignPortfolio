@@ -381,13 +381,20 @@
     .mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit {
         gap: 8rem;
     }
+    .mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit:first-child{
+        flex-direction: column-reverse;
+    }
+    .mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit:last-child{
+        flex-direction: column;
+    }
     .containerSection #InfoConceptualization, .mainContainerProjects #technologies .containerSection .containerInfo,
-    .mainContainerProjects #achievements .containerSection .containerInfo{
+    .mainContainerProjects #achievementsCineco .containerSection .containerInfo{
         gap:8rem;
     }
     .mainContainerProjects .section .containerSection .infoCocrevaImpact .rideaux .image {
         width: 100%;
         margin-top: 8rem;
+    }
 }
 
 

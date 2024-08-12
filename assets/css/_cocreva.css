@@ -125,20 +125,28 @@
 /* Achievements Cocreva */
 
 .mainContainerProjects .section .containerSection #infoCocrevaAchievements{
-    width:85%;
+    width:100%;
     height:auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     align-items: flex-start;
-    gap:30px;
+    gap:16rem;
 }
 .mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit{
     width:100%;
     display: flex;
-    flex-direction: column;
-    gap:16rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
     overflow: hidden;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit .article{
+    width:100%;
+}
+.mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit .rideaux{
+    width:100%;
 }
 .mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit:first-child .rideaux .image{
     width:50%;
@@ -175,7 +183,7 @@
     width:70%;
     height: auto;
     display: flex;
-    margin:auto;
+    margin: 16rem auto 0px;
 }
 
 
