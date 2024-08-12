@@ -270,14 +270,20 @@
 
 @media (min-width: 0px) and (max-width: 550px){
     .mainContainerProjects .section .containerSection #InfoCinecoResearch,
-    .mainContainerProjects .section .containerSection #InfoConceptualizationCineco{
+    .mainContainerProjects .section .containerSection #InfoConceptualizationCineco,
+    .mainContainerProjects .section .containerSection #containerInfoImplementation,
+    .mainContainerProjects .section .containerSection #impactCineco {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         display: flex;
         flex-direction: column-reverse;
         gap:30px;
     }
-    .mainContainerProjects .section .containerSection #InfoConceptualizationCineco .sectionSplit {
+    .mainContainerProjects .section .containerSection #InfoConceptualizationCineco .sectionSplit,
+    .mainContainerProjects .section .containerSection #containerInfoImplementation .sectionSplit,
+    .mainContainerProjects .section .containerSection #containerInfoCineco .sectionSplitCineco,
+    .mainContainerProjects .section .containerSection #achievementsCineco .sectionSplitCineco,
+    .mainContainerProjects .section .containerSection #impactCineco .sectionSplitCineco  {
         gap: 8rem;
     }
     .mainContainerProjects .section .containerSection #InfoCinecoResearch .sectionSplit{
@@ -286,7 +292,8 @@
     .mainContainerProjects #conceptualization .containerSection .containerInfo .sectionSplit:last-child {
         margin-bottom: 0rem;
     }
-    .mainContainerProjects .section .containerSection #InfoCinecoResearch .cinecoResearch{
+    .mainContainerProjects .section .containerSection #InfoCinecoResearch .cinecoResearch,
+    .mainContainerProjects .section .containerSection #containerInfoImplementation .implementationImageCineco{
         position: static;
     }
     .mainContainerProjects .section .containerSection #InfoConceptualizationCineco .cinecoDesign{
@@ -304,6 +311,12 @@
     .mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit {
         margin-top: 8rem;
     }
+    .mainContainerProjects .section .containerSection #impactCineco{
+        flex-direction: column;    }
+    .mainContainerProjects .section .containerSection #impactCineco .impactImageCineco{
+        order:0;
+        position: static;
+    }
 }
 
 /* -- Cineco Conceptualization--*/
@@ -312,6 +325,16 @@
 
 @media (min-width: 0px) and (max-width: 1200px){
     .mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit .prototypeCineco {
+        width: 100%;
+    }
+}
+
+/* -- Cineco Last Image Laptop --*/
+
+/* Screen min-width 601px && max-width 900px*/
+
+@media (min-width: 0px) and (max-width: 900px){
+    .mainContainerProjects .section .containerSection .sectionLaptopCellphone .laptopCellphone{
         width: 100%;
     }
 }
