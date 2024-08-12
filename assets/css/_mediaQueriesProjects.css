@@ -170,42 +170,6 @@
     }
 }
 
-/* Cineco */
-
- /* Context & challenge */
-
-/* Screen min-width 901px && max-width 1200px*/
-
-@media (min-width: 901px) and (max-width: 1200px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
-        width:45%;
-    }
-}
-
-/* Screen min-width 601px && max-width 900px*/
-
-@media (min-width: 601px) and (max-width: 900px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
-        width:55%;
-    }
-}
-
-/* Screen min-width 451px && max-width 600px*/
-
-@media (min-width: 451px) and (max-width: 600px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
-        width:75%;
-    }
-}
-
-/* Screen min-width 0px && max-width 450px*/
-
-@media (min-width: 0px) and (max-width: 450px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
-        width:85%;
-    }
-}
-
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px){
@@ -259,6 +223,68 @@
         display:none;
     }
 }
+
+/* Cineco */
+
+ /* Context & challenge */
+
+/* Screen min-width 901px && max-width 1200px*/
+
+@media (min-width: 901px) and (max-width: 1200px){
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+        width:45%;
+    }
+}
+
+/* Screen min-width 601px && max-width 900px*/
+
+@media (min-width: 601px) and (max-width: 900px){
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+        width:55%;
+    }
+}
+
+/* Screen min-width 451px && max-width 600px*/
+
+@media (min-width: 451px) and (max-width: 600px){
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+        width:75%;
+    }
+}
+
+/* Screen min-width 0px && max-width 450px*/
+
+@media (min-width: 0px) and (max-width: 450px){
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+        width:85%;
+    }
+}
+
+/* -- Cineco Research and Discovery --*/
+
+/* Screen min-width 0px && max-width 550px*/
+
+@media (min-width: 0px) and (max-width: 550px){
+    .mainContainerProjects .section .containerSection #InfoCinecoResearch{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mainContainerProjects .section .containerSection #InfoCinecoResearch .cinecoResearch{
+       position: static;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 /* HeroSections*/
 
