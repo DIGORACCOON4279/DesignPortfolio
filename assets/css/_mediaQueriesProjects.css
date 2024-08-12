@@ -231,7 +231,8 @@
 /* Screen min-width 901px && max-width 1200px*/
 
 @media (min-width: 901px) and (max-width: 1200px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone,
+    .mainContainerProjects .section .containerSection .cinecoCellphoneResearch{
         width:45%;
     }
 }
@@ -239,7 +240,8 @@
 /* Screen min-width 601px && max-width 900px*/
 
 @media (min-width: 601px) and (max-width: 900px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone,
+    .mainContainerProjects .section .containerSection .cinecoCellphoneResearch{
         width:55%;
     }
 }
@@ -247,7 +249,8 @@
 /* Screen min-width 451px && max-width 600px*/
 
 @media (min-width: 451px) and (max-width: 600px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone,
+    .mainContainerProjects .section .containerSection .cinecoCellphoneResearch{
         width:75%;
     }
 }
@@ -255,7 +258,8 @@
 /* Screen min-width 0px && max-width 450px*/
 
 @media (min-width: 0px) and (max-width: 450px){
-    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone{
+    .mainContainerProjects .section .containerSection .cellphoneCineco .cellphone,
+    .mainContainerProjects .section .containerSection .cinecoCellphoneResearch{
         width:85%;
     }
 }
@@ -265,16 +269,40 @@
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px){
-    .mainContainerProjects .section .containerSection #InfoCinecoResearch{
+    .mainContainerProjects .section .containerSection #InfoCinecoResearch,
+    .mainContainerProjects .section .containerSection #InfoConceptualizationCineco{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         display: flex;
         flex-direction: column-reverse;
+        gap:30px;
+    }
+    .mainContainerProjects .section .containerSection #InfoConceptualizationCineco .sectionSplit {
+        gap: 8rem;
+    }
+    .mainContainerProjects .section .containerSection #InfoCinecoResearch .sectionSplit{
+        gap:8rem;
+    }
+    .mainContainerProjects #conceptualization .containerSection .containerInfo .sectionSplit:last-child {
+        margin-bottom: 0rem;
     }
     .mainContainerProjects .section .containerSection #InfoCinecoResearch .cinecoResearch{
-       position: static;
+        position: static;
     }
-
+    .mainContainerProjects .section .containerSection #InfoConceptualizationCineco .cinecoDesign{
+        position: static;
+        order:1;
+    }
+    .mainContainerProjects .section .containerSection #infoWireframesCineco .article .wireframes .wireframeCineco,
+    .mainContainerProjects .section .containerSection #infoWireframesCineco .article .wireflow .wireflowCineco{
+        width:100%;
+        margin-top: 8rem
+    }
+    .mainContainerProjects .section .containerSection #infoWireframesCineco .article {
+        margin-top: 8rem;
+    }
+    .mainContainerProjects .section .containerSection #infoWireframesCineco .article .sectionPrototypeSplit {
+        margin-top: 8rem;
 }
 
 
