@@ -4,7 +4,7 @@
 
 /* Navbar - Header Projects*/
 
-/* Screen min-width 0px && max-width 850px*/
+/* Screen min-width 601px && max-width 950px */
 
 @media (min-width: 601px) and (max-width: 950px){
     .headerProjects .navbar .menu {
@@ -240,6 +240,20 @@
 }
 @media (min-width: 0px) and (max-width: 550px){
     .mainContainerProjects .context .containerSection .sectionCovertSemed{
+        height:15vh;
+    }
+}
+
+/* Cineco */
+
+@media (min-width:0px) and (max-width: 950px){
+    .mainContainerProjects .context .containerSection .sectionCovertCineco{
+        height:25vh;
+
+    }
+}
+@media (min-width: 0px) and (max-width: 550px){
+    .mainContainerProjects .context .containerSection .sectionCovertCineco{
         height:15vh;
     }
 }
