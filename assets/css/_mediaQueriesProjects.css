@@ -409,6 +409,129 @@
     }
 }
 
+
+
+
+
+/* Resapi */
+
+ /* Research */
+
+/* Screen min-width 0px && max-width 1200px*/
+
+@media (min-width: 0px) and (max-width: 1200px){
+    .mainContainerProjects .context .containerSection .sectionCovertResapi {
+        background: url(../../img/resapiPic6.webp) 20% center / 30% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiResearch .rideaux {
+        background: url(../../img/resapiPic8.webp) 85% center / 35% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiConceptualization .rideaux {
+        background: url(../../img/resapiPic1.webp) 25% center / 15% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiImplementation .rideaux {
+        background: url(../../img/resapiPic9.webp) 55% center / 50% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+
+    }
+    .mainContainerProjects .section .containerSection #infoResapiTechnology .rideaux {
+        background: url(../../img/resapiPic9.webp) 45% center / 50% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiAchievements .rideaux {
+        background: url(../../img/resapiPic10.webp) 85% center / 30% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:first-child .rideaux {
+
+        background: url(../../img/resapiPic11.webp) 80% center / 30% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:last-child .rideaux {
+        background: url(../../img/resapiPic3.webp) 25% center / 15% no-repeat fixed padding-box content-box;
+        background-color: blueviolet;
+
+    }
+}
+
+/* Screen min-width 551px && max-width 950px*/
+
+@media (min-width: 551px) and (max-width: 950px){
+    .mainContainerProjects .context .containerSection .sectionCovertResapi {
+        height: 15vh;
+    }
+}
+
+/* Screen min-width 0px && max-width 550px*/
+
+@media (min-width: 0px) and (max-width: 550px) {
+    .mainContainerProjects .context .containerSection .sectionCovertResapi {
+        height: 15vh;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiResearch,
+    .mainContainerProjects .section .containerSection #infoResapiConceptualization,
+    .mainContainerProjects .section .containerSection #infoResapiImplementation,
+    .mainContainerProjects .section .containerSection #infoResapiAchievements{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .mainContainerProjects .section .containerSection #infoResapiResearch .sectionSplit {
+        flex-direction: column-reverse;
+        gap: 8rem;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiResearch .rideaux{
+
+        height:50vh;background: url(../../img/resapiPic8.webp) 50% / 100% no-repeat fixed padding-box content-box;
+        /* background-color: blueviolet; */
+    }
+    .mainContainerProjects .section .containerSection #infoResapiConceptualization .rideaux{
+        height: 50vh;
+        order:2;
+        background: url(../../img/resapiPic1.webp) center / 50% no-repeat fixed padding-box content-box;
+    }
+    .mainContainerProjects #implementationResapi .containerSection .containerInfo {
+        gap: 30px;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiImplementation .rideaux {
+        height: 50vh;
+        background: url(../../img/resapiPic9.webp) 115% / 150% no-repeat fixed padding-box content-box;
+    }
+    .mainContainerProjects #implementationResapi .containerSection #infoResapiImplementation .sectionSplit {
+        gap: 8rem;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiTechnology .rideaux {
+        height: 50vh;
+        order: 2;
+        background: url(../../img/resapiPic9.webp) -15% / 150% no-repeat fixed padding-box content-box;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiTechnology .sectionSplit {
+        gap: 8rem;
+    }
+
+    .mainContainerProjects .section .containerSection #infoResapiAchievements .rideaux {
+        height: 50vh;
+        background: url(../../img/resapiPic10.webp) center / 85% no-repeat fixed padding-box content-box;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiAchievements .sectionSplit {
+        gap: 8rem;
+    }
+
+    .mainContainerProjects #achievementsResapi .containerSection .containerInfo{
+        gap: 0rem;
+    }
+}
+
+
+
+
+
+
 /* Break a Leg */
 
  /* Context & challenge */
@@ -518,11 +641,6 @@
         flex-direction: column;
         gap: 30px;
     }
-    /* .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .curtain{
-        position:sticky;
-        top:153px;
-        left:0;
-    } */
     .mainContainerProjects .impact .containerSection .impactPicBreakALeg {
         margin:-100px;
     }
@@ -600,6 +718,10 @@
     }
     .mainContainerProjects .heroSection .heroSemed .semedHero:last-child{
         width:30%;
+    }
+    .mainContainerProjects #impact .containerSection .containerInfo .infoImpact,
+    .mainContainerProjects #achievements .containerSection .containerInfo{
+        gap: 8rem;
     }
 }
 
