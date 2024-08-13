@@ -164,6 +164,7 @@
     height:auto;
     display: flex;
     flex-direction: row-reverse;
+    gap:30px;
 }
 .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:first-child .rideaux{
     width:100%;
@@ -183,9 +184,7 @@
     width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    margin:auto;
 }
 .mainContainerProjects .section .containerSection .lastRideaux{
     width:100%;

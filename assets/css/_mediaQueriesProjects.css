@@ -422,38 +422,27 @@
 @media (min-width: 0px) and (max-width: 1200px){
     .mainContainerProjects .context .containerSection .sectionCovertResapi {
         background: url(../../img/resapiPic6.webp) 20% center / 30% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
     }
     .mainContainerProjects .section .containerSection #infoResapiResearch .rideaux {
         background: url(../../img/resapiPic8.webp) 85% center / 35% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
     }
     .mainContainerProjects .section .containerSection #infoResapiConceptualization .rideaux {
         background: url(../../img/resapiPic1.webp) 25% center / 15% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
     }
     .mainContainerProjects .section .containerSection #infoResapiImplementation .rideaux {
         background: url(../../img/resapiPic9.webp) 55% center / 50% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
-
     }
     .mainContainerProjects .section .containerSection #infoResapiTechnology .rideaux {
         background: url(../../img/resapiPic9.webp) 45% center / 50% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
     }
     .mainContainerProjects .section .containerSection #infoResapiAchievements .rideaux {
         background: url(../../img/resapiPic10.webp) 85% center / 30% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
     }
     .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:first-child .rideaux {
-
         background: url(../../img/resapiPic11.webp) 80% center / 30% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
     }
     .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:last-child .rideaux {
         background: url(../../img/resapiPic3.webp) 25% center / 15% no-repeat fixed padding-box content-box;
-        background-color: blueviolet;
-
     }
 }
 
@@ -486,9 +475,7 @@
         gap: 8rem;
     }
     .mainContainerProjects .section .containerSection #infoResapiResearch .rideaux{
-
         height:50vh;background: url(../../img/resapiPic8.webp) 50% / 100% no-repeat fixed padding-box content-box;
-        /* background-color: blueviolet; */
     }
     .mainContainerProjects .section .containerSection #infoResapiConceptualization .rideaux{
         height: 50vh;
@@ -513,7 +500,6 @@
     .mainContainerProjects .section .containerSection #infoResapiTechnology .sectionSplit {
         gap: 8rem;
     }
-
     .mainContainerProjects .section .containerSection #infoResapiAchievements .rideaux {
         height: 50vh;
         background: url(../../img/resapiPic10.webp) center / 85% no-repeat fixed padding-box content-box;
@@ -521,9 +507,26 @@
     .mainContainerProjects .section .containerSection #infoResapiAchievements .sectionSplit {
         gap: 8rem;
     }
-
     .mainContainerProjects #achievementsResapi .containerSection .containerInfo{
         gap: 0rem;
+    }
+    .mainContainerProjects #impactResapi .containerSection .containerInfo {
+        gap:8rem;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:first-child .rideaux {
+        height: 50vh;
+        background: url(../../img/resapiPic11.webp) center / 80% no-repeat fixed padding-box content-box;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .mainContainerProjects .section .containerSection #infoResapiImpact .sectionSplit:last-child .rideaux {
+        height: 50vh;
+        background: url(../../img/resapiPic3.webp) center / 50% no-repeat fixed padding-box content-box;
+    }
+    .mainContainerProjects .section .containerSection .lastRideaux .resapiImage {
+        width: 100%;
     }
 }
 
