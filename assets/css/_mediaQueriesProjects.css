@@ -211,7 +211,7 @@
     }
     .mainContainerProjects #technologies .containerSection .containerInfo .infoSplit,
     .mainContainerProjects #achievements .containerSection .containerInfo .infoSplit,
-    .mainContainerProjects #impact .containerSection .containerInfo .infoImpact{
+    .mainContainerProjects #impactCinecoSection .containerSection .containerInfo .infoImpact{
         gap:8rem;
     }
 }
@@ -312,7 +312,8 @@
         margin-top: 8rem;
     }
     .mainContainerProjects .section .containerSection #impactCineco{
-        flex-direction: column;    }
+        flex-direction: column-reverse;
+    }
     .mainContainerProjects .section .containerSection #impactCineco .impactImageCineco{
         order:0;
         position: static;
@@ -320,10 +321,10 @@
     .mainContainerProjects .section .containerSection .sectionLaptopCellphone {
         margin-top: 8rem;
     }
-    .mainContainerProjects #impact .containerSection .tickets{
+    .mainContainerProjects #impactCinecoSection .containerSection .tickets{
         margin-top: 8rem;
     }
-    .mainContainerProjects #impact .containerSection .tickets .ticket{
+    .mainContainerProjects #impactCinecoSection .containerSection .tickets .ticket{
         width:100%;
         height:auto;
     }
@@ -491,7 +492,7 @@
         flex-direction: column;
         gap:30px;
     }
-    .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit {        grid-template-columns: repeat(1, 1fr);
+    .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         display: flex;
@@ -511,8 +512,8 @@
     .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising{
         padding:40px 0px;
     }
-    .mainContainerProjects #impact .containerSection .containerInfo {
-        flex-direction: column-reverse;
+    .mainContainerProjects #impactCinecoSection .containerSection .containerInfo {
+        flex-direction: column;
         gap: 30px;
     }
     .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .curtain{

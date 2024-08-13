@@ -295,7 +295,7 @@
     width:75%;
     height:auto;
 }
-.mainContainerProjects #impact .containerSection .tickets{
+.mainContainerProjects #impactCinecoSection .containerSection .tickets{
     width:100%;
     height:auto;
     display: flex;
@@ -307,12 +307,12 @@
     margin-top: 16rem;
     overflow: hidden;
 }
-.mainContainerProjects #impact .containerSection .tickets .ticket{
+.mainContainerProjects #impactCinecoSection .containerSection .tickets .ticket{
     width:auto;
     height:auto;
     filter: drop-shadow(0 0 4px #949494);
     transition:0.3s ease-in-out;
 }
-.mainContainerProjects #impact .containerSection .tickets .ticket:hover{
+.mainContainerProjects #impactCinecoSection .containerSection .tickets .ticket:hover{
     filter: drop-shadow(0 0 12px #949494);
 }
