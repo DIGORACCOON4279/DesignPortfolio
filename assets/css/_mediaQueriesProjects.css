@@ -507,7 +507,8 @@
     .mainContainerProjects .section .containerSection .containerInfo .article {
         margin:0px;
     }
-    .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising{
+    .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising,
+    .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising{
         padding:40px 0px;
     }
     .mainContainerProjects #impact .containerSection .containerInfo {
@@ -520,10 +521,17 @@
         left:0;
     }
     .mainContainerProjects .impact .containerSection .impactPicBreakALeg {
-        margin:0px;
+        margin:-100px;
     }
 }
 
+/* Screen min-width 0px && max-width 900px*/
+
+@media (min-width: 0px) and (max-width: 900px) {
+    .mainContainerProjects .impact .containerSection .impactPicBreakALeg .breakALegImpact{
+        width:100%;
+    }
+}
 
 
 

@@ -607,7 +607,7 @@
     margin: 100px auto 0px;
 }
 .mainContainerProjects .impact .containerSection .impactPicBreakALeg .breakALegImpact{
-    width:70%;
+    width:75%;
     animation:motion 10s linear infinite
 }
 @keyframes motion{
