@@ -117,6 +117,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 .mainContainerProjects .section .containerSection #infoBreakaLegResearch .block .advertising .image{
     width:50%;
@@ -148,7 +149,7 @@
     width:100%;
     height: auto;
     position:sticky;
-    top:157px;
+    top:157px; top:157px;
     left:0px;
     overflow: hidden;
     border-radius: 10px;
@@ -204,6 +205,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .block .advertising .image{
     width:50%;
@@ -250,7 +252,7 @@
     transition: 0.3s ease-in-out;
     background-image: url("../../img/implementationBreakaLeg2.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     transition: transform 0.3s ease-in-out;
 }
@@ -320,6 +322,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .block .advertising .image,
 .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux .advertising .image{
@@ -413,6 +416,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising .image{
     width:50%;
@@ -422,7 +426,7 @@
     width:50%;
 }
 
-/* Technologies and Tools Break a Leg */
+/* Achievements Break a Leg */
 
 .mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg{
     width:100%;
@@ -500,6 +504,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 .mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .block .advertising .image{
     width:50%;
@@ -584,6 +589,7 @@
     color: white;
     font-size: 1rem;
     font-weight: 700;
+    text-align: center;
 }
 .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .block .advertising .image{
     width:50%;

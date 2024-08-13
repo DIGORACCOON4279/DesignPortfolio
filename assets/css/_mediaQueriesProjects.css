@@ -422,10 +422,109 @@
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px) {
-    .mainContainerProjects .context .containerSection .sectionCovertCocreva {
+    .mainContainerProjects .context .containerSection .sectionCovertBreakaLeg {
         height: 15vh;
+        /* background-attachment: local; */
     }
 }
+
+/* Screen min-width 0px && max-width 1200px*/
+
+@media (min-width: 0px) and (max-width: 1200px) {
+    .mainContainerProjects .context .containerSection .containerInfo #picBreakALeg .breakALegContext {
+        width: 45%;
+    }
+}
+
+/* Screen min-width 601px && max-width 900px*/
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .mainContainerProjects .context .containerSection .containerInfo #picBreakALeg .breakALegContext {
+        width: 55%;
+    }
+}
+
+/* Screen min-width 451px && max-width 600px*/
+
+@media (min-width: 451px) and (max-width: 600px) {
+    .mainContainerProjects .context .containerSection .containerInfo #picBreakALeg .breakALegContext {
+        width: 75%;
+    }
+}
+
+/* Screen min-width 0px && max-width 450px*/
+
+@media (min-width: 0px) and (max-width: 450px) {
+    .mainContainerProjects .context .containerSection .containerInfo #picBreakALeg .breakALegContext {
+        width: 85%;
+    }
+}
+
+/* Screen min-width 0px && max-width 550px*/
+
+@media (min-width: 0px) and (max-width: 550px) {
+    .mainContainerProjects .section .containerSection #infoBreakaLegResearch{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        gap:30px;
+    }
+    .mainContainerProjects .section .containerSection #infoBreakaLegResearch .curtain{        grid-template-columns: repeat(1, 1fr);
+        top:153px;
+    }
+    .mainContainerProjects .section .containerSection #infoBreakaLegResearch .sectionSplit,
+    .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .sectionSplit,
+    .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit .finalBranding,
+    .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .sectionSplit,
+    .mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg .sectionSplit,
+    .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .sectionSplit{
+        gap: 8rem;
+    }
+    .mainContainerProjects #technologies .containerSection .containerInfo{
+        gap: 8rem;
+    }
+    .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit {        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column-reverse;
+        gap:30px;
+    }
+    .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux{
+        padding:40px 0px;
+        position: sticky;
+        top:157px;
+        left:0;
+    }
+    .mainContainerProjects .section .containerSection .containerInfo .article {
+        margin:0px;
+    }
+    .mainContainerProjects .section .containerSection #technologyInfoBreakaLeg .block .advertising{
+        padding:40px 0px;
+    }
+    .mainContainerProjects #impact .containerSection .containerInfo {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .curtain{
+        position:sticky;
+        top:153px;
+        left:0;
+    }
+    .mainContainerProjects .impact .containerSection .impactPicBreakALeg {
+        margin:0px;
+    }
+}
+
+
 
 
 
