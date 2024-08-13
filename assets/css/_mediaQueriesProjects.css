@@ -395,7 +395,8 @@
     .mainContainerProjects .section .containerSection #infoCocrevaAchievements .sectionSplit:last-child{
         flex-direction: column;
     }
-    .containerSection #InfoConceptualization, .mainContainerProjects #technologies .containerSection .containerInfo,
+    .containerSection #InfoConceptualization,
+    .mainContainerProjects #technologies .containerSection .containerInfo,
     .mainContainerProjects #achievementsCineco .containerSection .containerInfo{
         gap:8rem;
     }
@@ -464,15 +465,20 @@
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px) {
-    .mainContainerProjects .section .containerSection #infoBreakaLegResearch{
+    .mainContainerProjects .section .containerSection #infoBreakaLegResearch,
+    .mainContainerProjects .section .containerSection #impactInfoBreakaLeg{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         display: flex;
         flex-direction: column-reverse;
-        gap:30px;
+        gap:8rem;
+    }
+    .mainContainerProjects .section .containerSection #infoBreakaLegResearch{
+        flex-direction: column;
     }
     .mainContainerProjects .section .containerSection #infoBreakaLegResearch .curtain{        grid-template-columns: repeat(1, 1fr);
         top:153px;
+
     }
     .mainContainerProjects .section .containerSection #infoBreakaLegResearch .sectionSplit,
     .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg .sectionSplit,
@@ -485,25 +491,21 @@
     .mainContainerProjects #technologies .containerSection .containerInfo{
         gap: 8rem;
     }
-    .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
+    .mainContainerProjects .section .containerSection #achievementsInfoBreakaLeg{
         display: flex;
-        flex-direction: column;
-        gap:30px;
+        flex-direction: column-reverse;
+        gap: 8rem;
     }
+    .mainContainerProjects .section .containerSection #infoConceptualizationBreakaLeg,
     .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         display: flex;
         flex-direction: column-reverse;
-        gap:30px;
+        gap:8rem;
     }
     .mainContainerProjects .section .containerSection #ImplementationInfoBreakaLeg .sectionSplit #rideaux{
         padding:40px 0px;
-        position: sticky;
-        top:157px;
-        left:0;
     }
     .mainContainerProjects .section .containerSection .containerInfo .article {
         margin:0px;
@@ -516,11 +518,11 @@
         flex-direction: column;
         gap: 30px;
     }
-    .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .curtain{
+    /* .mainContainerProjects .section .containerSection #impactInfoBreakaLeg .curtain{
         position:sticky;
         top:153px;
         left:0;
-    }
+    } */
     .mainContainerProjects .impact .containerSection .impactPicBreakALeg {
         margin:-100px;
     }
