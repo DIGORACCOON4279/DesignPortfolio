@@ -16,6 +16,10 @@
     url("../../img/resapiPic6.webp") 45% center / 30% no-repeat fixed padding-box content-box;
     background-color: transparent;
 }
+.mainContainerProjects .context .containerSection .sectionCovertResapi:last-child{
+    height:40vh;
+    margin-top: 8rem;
+}
 .mainContainerProjects .context .containerSection .sectionCovertResapi .resapiContext{
     width:14%;
     height:auto;

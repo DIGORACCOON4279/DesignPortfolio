@@ -421,7 +421,7 @@
 
 @media (min-width: 0px) and (max-width: 1200px){
     .mainContainerProjects .context .containerSection .sectionCovertResapi {
-        background: url(../../img/resapiPic6.webp) 20% center / 30% no-repeat fixed padding-box content-box;
+        background: url(../../img/resapiPic6.webp) 15% center / 30% no-repeat fixed padding-box content-box;
     }
     .mainContainerProjects .section .containerSection #infoResapiResearch .rideaux {
         background: url(../../img/resapiPic8.webp) 85% center / 35% no-repeat fixed padding-box content-box;
@@ -449,15 +449,17 @@
 /* Screen min-width 551px && max-width 950px*/
 
 @media (min-width: 551px) and (max-width: 950px){
-    .mainContainerProjects .context .containerSection .sectionCovertResapi {
-        height: 15vh;
+    .mainContainerProjects .context .containerSection .sectionCovertResapi,
+    .mainContainerProjects .context .containerSection .sectionCovertResapi:last-child{
+        height: 25vh;
     }
 }
 
 /* Screen min-width 0px && max-width 550px*/
 
 @media (min-width: 0px) and (max-width: 550px) {
-    .mainContainerProjects .context .containerSection .sectionCovertResapi {
+    .mainContainerProjects .context .containerSection .sectionCovertResapi,
+    .mainContainerProjects .context .containerSection .sectionCovertResapi:last-child{
         height: 15vh;
     }
     .mainContainerProjects .section .containerSection #infoResapiResearch,
