@@ -349,7 +349,6 @@
     }
 }
 
-
 /* Cocreva */
 
  /* Context & challenge */
@@ -361,12 +360,13 @@
         height: 25vh;
     }
 }
-/* Screen min-width 0px && max-width 900px*/
 
+/* Screen min-width 0px && max-width 900px*/
 
 @media (min-width: 0px) and (max-width: 900px) {
     .mainContainerProjects .section .containerSection .infoCocrevaImpact .rideaux .image {
         width: 100%;
+    }
 }
 
 /* Screen min-width 0px && max-width 550px*/
@@ -404,9 +404,28 @@
     }
     .mainContainerProjects .section .containerSection .infoCocrevaImpact .rideaux {
         margin-top: 0px;
+    }
 }
 
+/* Break a Leg */
 
+ /* Context & challenge */
+
+/* Screen min-width 551px && max-width 950px*/
+
+@media (min-width: 551px) and (max-width: 950px){
+    .mainContainerProjects .context .containerSection .sectionCovertBreakaLeg{
+        height: 25vh;
+    }
+}
+
+/* Screen min-width 0px && max-width 550px*/
+
+@media (min-width: 0px) and (max-width: 550px) {
+    .mainContainerProjects .context .containerSection .sectionCovertCocreva {
+        height: 15vh;
+    }
+}
 
 
 
