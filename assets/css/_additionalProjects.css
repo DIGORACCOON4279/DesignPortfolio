@@ -529,10 +529,12 @@
     border-radius: 5px;
 }
 .mainContainerAdditionalProjects .section div.containerSection .titleTag{
+    width:100%;
     color:#ffffff;
     font-size: 0.8rem;
     font-weight: 600;
     padding: 10px 20px;
+    text-align: center;
 }
 
 /* Project Section Titles */
