@@ -220,6 +220,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: #fdfdfd;
 }
 .headerProjects .navbar .menu .projectsDirect .slide{
     width: 20%;
@@ -255,7 +256,6 @@
     width: 100%;
     height:100%;
     transform:scale(100%, 100%);
-    /* background: linear-gradient(to bottom, #c900c950, 40%, #c900c950); */
     background-color: #c900c98a;
     backdrop-filter: blur(10px);
 }

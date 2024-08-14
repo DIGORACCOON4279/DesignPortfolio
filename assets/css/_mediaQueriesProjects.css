@@ -51,6 +51,7 @@
     }
     .headerProjects .navbar .menu .menuLinks {
         width: 100vw;
+        height: 100vh;
         align-items: center;
     }
     .headerProjects .navbar .menu .menuLinks ul{
