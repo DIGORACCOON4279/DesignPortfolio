@@ -1,3 +1,5 @@
+
+
 .mainContainerPage404{
     width:100%;
     height: auto;
@@ -15,22 +17,23 @@
     background-size: cover;
     perspective: 1000px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: row; */
+    justify-content: flex-end;
     align-items: center;
+    /* margin:auto; */
 }
 
 /* Arrow */
 
-.mainContainerPage404 .cardContainer .arrow{
-    width: 100%;
-    height: 100%;
+.mainContainerPage404 .cardContainer .containerCenter .arrow{
+    width: auto;
+    height: auto;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     z-index: 9;
 }
-.mainContainerPage404 .cardContainer .arrow .imageCurveArrow{
+.mainContainerPage404 .cardContainer .containerCenter .arrow .imageCurveArrow{
     width: 100px;
     height: auto;
     object-fit: cover;
@@ -53,39 +56,64 @@
     }
 }
 
-/* Card */
+/* ContainerCenter */
 
-.mainContainerPage404 .cardContainer .card {
-    width: 60%;
-    height: auto;
-    /* display: flex;
+.mainContainerPage404 .cardContainer .containerCenter {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: auto; */
-    background-color: #C900C9;
-    /* position: absolute;
-    bottom:50%;
-    left:30%; */
+    gap:80px;
+    padding: 0px auto;
+
+}
+
+/* Card */
+
+.mainContainerPage404 .cardContainer .containerCenter .card {
+    width: 300px;
+    height: 475px;
     transform-style: preserve-3d;
     transition: transform 0.5s;
-}
-.mainContainerPage404 .cardContainer .card:hover {
-    transform: rotateY(180deg);
-}
-.mainContainerPage404 .cardContainer .card .cardHome {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    backface-visibility: hidden;
+    border-radius: 20px;
 }
-.mainContainerPage404 .cardContainer .card .back {
+.mainContainerPage404 .cardContainer .containerCenter  .card:hover {
     transform: rotateY(180deg);
 }
-.mainContainerPage404 .cardContainer .card .cardHome .returnCard {
+.mainContainerPage404 .cardContainer .containerCenter .card .cardHome{
+    width:auto;
+    height: auto;
+    position:absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    /* animation:returnCard 1s linear; */
+}
+.mainContainerPage404 .cardContainer .containerCenter  .card .front {
+    background-image: url("../../img/FrontCard404.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.mainContainerPage404 .cardContainer .containerCenter  .card .back {
+    background-image: url("../../img/BackCard404.webp");
+    background-repeat:no-repeat;
+    background-position: center;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+
+}
+/* .mainContainerPage404 .cardContainer .card .cardHome .returnCard {
     width: auto;
     height: auto;
     border-radius: 20px;
@@ -94,8 +122,8 @@
     position:relative;
     box-shadow: 0 8px 32px #0000001a;
     animation:returnCard 1s linear;
-}
-@keyframes returnCard{
+} */
+/* @keyframes returnCard{
     0%{
         transform:rotateY(90deg);
         opacity: 0;
@@ -104,25 +132,29 @@
         transform:rotateY(0deg);
         opacity: 1;
     }
-}
+} */
 
 /* Button Return Home */
 
-.mainContainerPage404 .cardContainer .card .homeWay {
+.mainContainerPage404 .cardContainer .containerCenter .card .homeWay {
     position:absolute;
-    top:110px;
-    width: auto;
+    bottom:80px;
+    left:0%;
+    right:0%;
+    width: 70%;
     background-color: #161616;
     color: #cfcfcf;
     font-size: 1rem;
     font-weight: 500;
-    padding: 10px 80px;
+    padding: 10px;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
+    margin: auto;
     transition: 0.3s ease-in-out;
 }
-.mainContainerPage404 .cardContainer .card .homeWay:hover {
+.mainContainerPage404 .cardContainer .containerCenter .card .homeWay:hover {
     background-color: #3a3a3a;
     color:#ffffff;
 }
+
