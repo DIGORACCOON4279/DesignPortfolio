@@ -781,3 +781,44 @@
     }
 
 }
+
+/* Slider JS Details */
+
+/* Screen min-width 651px && max-width 850px*/
+
+@media (min-width: 651px) and (max-width: 850px) {
+    .mainContainerProjects .details div.containerSection .sectionCards .cards{
+        width:100%;
+
+    }
+    .mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
+        width:40%;
+        align-self: self-start;
+    }
+}
+
+/* Screen min-width 0px && max-width 650px*/
+
+@media (min-width: 551px) and (max-width: 650px) {
+    .mainContainerProjects .details div.containerSection .sectionCards .cards{
+        width:100%;
+
+    }
+    .mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
+        width:50%;
+        align-self: center;
+    }
+}
+
+/* Screen min-width 0px && max-width 650px*/
+
+@media (min-width: 0px) and (max-width: 550px) {
+    .mainContainerProjects .details div.containerSection .sectionCards .cards{
+        width:100%;
+
+    }
+    .mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
+        width:100%;
+        align-self: center;
+    }
+}
