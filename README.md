@@ -93,6 +93,6 @@ Este portafolio no solo muestra mis habilidades en diseño y desarrollo, sino ta
 🚀 Deployment </br>
 [UX/Ui Design - Porfolio](https://design-portfolio-smoky.vercel.app/) </br>
 
- ![raccon_Logo3](https://github.com/user-attachments/assets/67a05c36-88b4-47d1-b30f-5b6c1def7cec) </br>
+![raccon_Logo3](https://github.com/user-attachments/assets/67a05c36-88b4-47d1-b30f-5b6c1def7cec) </br>
 
 
