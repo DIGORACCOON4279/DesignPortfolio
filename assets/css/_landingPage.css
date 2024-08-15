@@ -149,53 +149,61 @@
 
 /* Animation Hero Section */
 
-.mainContainer .heroSection .spot{
+.mainContainer .heroSection .spots{
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    z-index: -1;
+    overflow: hidden;
+}
+.mainContainer .heroSection .spots .spot{
     width: 60px;
     height: 60px;
     position: absolute;
     animation: 25s linear infinite alternate;
     border-radius: 50%;
-    z-index: -1;
     opacity:0.4;
 }
-
-.mainContainer .heroSection .spot1 {
+.mainContainer .heroSection .spots .spot1 {
     background: linear-gradient(to bottom, #aed9e0, #ffffff);
     top: 10%;
     left: 10%;
     animation-name: moveSpot1;
 }
-.mainContainer .heroSection .spot2 {
+.mainContainer .heroSection .spots .spot2 {
     background: linear-gradient(to right, #c8e6c9, #fff9c4);
     top: 70%;
     left: 10%;
     animation-name: moveSpot2;
 }
-.mainContainer .heroSection .spot3 {
+.mainContainer .heroSection .spots .spot3 {
     background: linear-gradient(to bottom right, #f8bbd0, #bbdefb);
     top: 50%;
     left: 50%;
     animation-name: moveSpot3;
 }
-.mainContainer .heroSection .spot4 {
+.mainContainer .heroSection .spots .spot4 {
     background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
     bottom: 10%;
     right: 20%;
     animation-name: moveSpot4;
 }
-.mainContainer .heroSection .spot5 {
+.mainContainer .heroSection .spots .spot5 {
     background: linear-gradient(135deg, #e1bee7, #ffcc80);
     bottom: 70%;
     left: 80%;
     animation-name: moveSpot5;
 }
-.mainContainer .heroSection .spot6 {
+.mainContainer .heroSection .spots .spot6 {
     background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
     bottom: 50%;
     right: 100%;
     animation-name: moveSpot6;
 }
-.mainContainer .heroSection .spot7 {
+.mainContainer .heroSection .spots .spot7 {
     background: linear-gradient(135deg, #e1bee7, #ffcc80);
     bottom: 35%;
     left: 30%;

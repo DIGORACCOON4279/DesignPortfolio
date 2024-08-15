@@ -617,6 +617,7 @@
     font-size: 0.8rem;
     font-weight: 600;
     padding: 10px 20px;
+    text-align: left;
 }
 .mainContainerProjects .section .containerSection .containerInfo{
     width:100%;

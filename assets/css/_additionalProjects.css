@@ -214,7 +214,7 @@
     z-index: -1;
     overflow: hidden;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot{
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot{
     width: 60px;
     height: 60px;
     position: absolute;
@@ -222,43 +222,43 @@
     border-radius: 50%;
     opacity:0.4;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot1 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot1 {
     background: linear-gradient(to bottom, #aed9e0, #ffffff);
     top: 10%;
     left: 10%;
     animation-name: moveSpot1;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot2 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot2 {
     background: linear-gradient(to right, #c8e6c9, #fff9c4);
     top: 70%;
     left: 10%;
     animation-name: moveSpot2;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot3 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot3 {
     background: linear-gradient(to bottom right, #f8bbd0, #bbdefb);
     top: 50%;
     left: 50%;
     animation-name: moveSpot3;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot4 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot4 {
     background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
     bottom: 10%;
     right: 20%;
     animation-name: moveSpot4;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot5 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot5 {
     background: linear-gradient(135deg, #e1bee7, #ffcc80);
     bottom: 70%;
     left: 80%;
     animation-name: moveSpot5;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot6 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot6 {
     background: linear-gradient(to bottom, #b2e2ad, #ffbdfc);
     bottom: 50%;
     right: 100%;
     animation-name: moveSpot6;
 }
-.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot7 {
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot7 {
     background: linear-gradient(135deg, #e1bee7, #ffcc80);
     bottom: 35%;
     left: 30%;
