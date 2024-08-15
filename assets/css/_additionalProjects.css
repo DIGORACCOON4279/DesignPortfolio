@@ -113,7 +113,8 @@
     border-radius: 20px;
     cursor: pointer;
     /* overflow: hidden; */
-    background-color: #3a3a3a1c;
+    background-color: #000000e8;
+    /* background-color: #3a3a3a1c; */
     backdrop-filter: blur(8px);
     box-shadow: 0 8px 32px #0000001a;
     animation:cardAdditionalProjects 0.8s linear;
@@ -203,13 +204,22 @@
     padding: 0px 15px;
     font-style: italic;
 }
+.mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots{
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    z-index: -1;
+    overflow: hidden;
+}
 .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot{
     width: 60px;
     height: 60px;
     position: absolute;
     animation: 25s linear infinite alternate;
     border-radius: 50%;
-    z-index: -1;
     opacity:0.4;
 }
 .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spot1 {
