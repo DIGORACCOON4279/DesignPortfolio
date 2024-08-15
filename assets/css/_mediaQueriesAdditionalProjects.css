@@ -120,6 +120,7 @@
 @media (min-width: 0px) and (max-width: 680px){
     .mainContainerAdditionalProjects .section .containerSection .containerInfo .title{
         font-size: 1.7rem;
+        text-align: center;
     }
 
     /* Project Section Titles */
