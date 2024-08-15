@@ -500,39 +500,51 @@
     /* max-width: 400px; */
     /* min-width: 330px; */
     flex: 0 0 auto;
-    min-height:300px;
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f82929fd;
+
+}
+.mainContainerProjects .details div.containerSection .sectionCards .cards .contentProject{
+    width:45%;
+    height: 400px;
+    min-width:325px;
+    min-height:400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap:30px;
     overflow: hidden;
-    margin: 20px auto;
     padding: 20px;
+    margin:40px auto;
     border-radius: 20px;
     box-shadow: 0 8px 32px #0000001a;
     background-color: #dbdbdb23;
     box-sizing: border-box;
+    overflow: hidden;
 }
-.mainContainerProjects .details div.containerSection .sectionCards .cards .image{
+.mainContainerProjects .details div.containerSection .sectionCards .cards .contentProject .image{
     width:45px;
     align-self: self-end;
 }
-.mainContainerProjects .details div.containerSection .sectionCards .cards .info{
+.mainContainerProjects .details div.containerSection .sectionCards .cards .contentProject .info{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-.mainContainerProjects .details div.containerSection .sectionCards .cards .info p{
+.mainContainerProjects .details div.containerSection .sectionCards .cards .contentProject .info p{
     color:#616161;
     font-size: 0.9rem;
     font-weight: 500;
 }
-.mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
-    width:30%;
+.mainContainerProjects .details div.containerSection .sectionCards .cards .contentProject .ctaItem{
+    width:100%;
     background-color: #161616;
     color:#cfcfcf;
     font-size: 1rem;
@@ -542,11 +554,11 @@
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     cursor: pointer;
     transition:0.3s ease-in-out;
 }
-.mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem:hover{
+.mainContainerProjects .details div.containerSection .sectionCards .cards .contentProject .ctaItem:hover{
     background-color: #3a3a3a;
     color:#ffffff;
 }

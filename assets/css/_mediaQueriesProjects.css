@@ -418,10 +418,6 @@
     }
 }
 
-
-
-
-
 /* Resapi */
 
  /* Research */
@@ -541,11 +537,6 @@
         width: 100%;
     }
 }
-
-
-
-
-
 
 /* Break a Leg */
 
@@ -669,11 +660,6 @@
     }
 }
 
-
-
-
-
-
 /* HeroSections*/
 
 /* Screen min-width 0px && max-width 950px*/
@@ -759,7 +745,6 @@
     }
 }
 
-
 /* Resapi */
 
 @media (min-width:0px) and (max-width: 750px){
@@ -798,11 +783,6 @@
 @media (min-width: 651px) and (max-width: 850px) {
     .mainContainerProjects .details div.containerSection .sectionCards .cards{
         width:100%;
-
-    }
-    .mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
-        width:40%;
-        align-self: self-start;
     }
 }
 
@@ -811,11 +791,6 @@
 @media (min-width: 551px) and (max-width: 650px) {
     .mainContainerProjects .details div.containerSection .sectionCards .cards{
         width:100%;
-
-    }
-    .mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
-        width:50%;
-        align-self: center;
     }
 }
 
@@ -824,10 +799,16 @@
 @media (min-width: 0px) and (max-width: 550px) {
     .mainContainerProjects .details div.containerSection .sectionCards .cards{
         width:100%;
-
     }
-    .mainContainerProjects .details div.containerSection .sectionCards .cards .ctaItem{
-        width:100%;
-        align-self: center;
+}
+
+/* Details Cards*/
+
+/* Screen min-width 0px && max-width 450px*/
+
+@media (min-width: 0px) and (max-width: 450px){
+    .mainContainerProjects .details div.containerSection .sectionCards .contentProject{
+        width:250px;
+        height:auto;
     }
 }
