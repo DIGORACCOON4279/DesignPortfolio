@@ -505,8 +505,6 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: #f82929fd;
-
 }
 .mainContainerProjects .details div.containerSection .sectionCards .cards .contentProject{
     width:45%;
