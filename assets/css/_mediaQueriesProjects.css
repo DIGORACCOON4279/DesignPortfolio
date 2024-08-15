@@ -63,6 +63,14 @@
 
 /* Screen min-width 0px && max-width 850px*/
 
+@media (min-width: 950px) and (max-width: 1200px){
+    .headerProjects .navbar .menu .projectsDirect .slide .block .linkProject{
+        width:90%;
+    }
+}
+
+/* Screen min-width 0px && max-width 850px*/
+
 @media (min-width: 0px) and (max-width: 1200px){
     .mainContainerProjects{
         width:100%;
@@ -355,7 +363,7 @@
 
  /* Context & challenge */
 
-/* Screen min-width 901px && max-width 1200px*/
+/* Screen min-width 551px && max-width 950px*/
 
 @media (min-width: 551px) and (max-width: 950px){
     .mainContainerProjects .context .containerSection .sectionCovertCocreva{
