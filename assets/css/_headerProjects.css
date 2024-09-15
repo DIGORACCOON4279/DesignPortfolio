@@ -139,7 +139,7 @@
     width: 100%;
     list-style-type: none;
 }
-.headerProjects .navbar .menu .menuLinks ul li .item {
+.headerProjects .navbar .menu .menuLinks ul li .item{
     width: 100%;
     text-decoration: none;
     display: flex;
@@ -249,7 +249,7 @@
     top:0;
     left:0;
     transform:scale(0%, 0%);
-    transition: 0.3s ease-in-out;
+    transition: 0.7s ease-in-out;
 }
 .headerProjects .navbar .menu .projectsDirect .slide:hover::after{
     content:"";
@@ -317,7 +317,7 @@
     margin: auto;
     overflow: hidden;
     transform: scale(0%);
-    transition: transform 0.3s ease;
+    transition: transform 0.7s ease-in-out;
 }
 .headerProjects .navbar .menu .projectsDirect .slide:hover .block{
     transform: scale(100%);
