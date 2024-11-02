@@ -41,7 +41,7 @@
 
 
 
-    /* .sliderCards {
+    .sliderCards {
         display: flex;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
@@ -49,7 +49,7 @@
     .projectCards {
         min-width: auto;
         scroll-snap-align: center;
-    } */
+    }
 }
 
 /* Additional Project Tooltip*/
@@ -58,7 +58,7 @@
 
 @media (min-width: 0px) and (max-width: 750px){
     .mainContainerAdditionalProjects .heroSection .sectionTooltipAdditionalProjects .tooltip .intro{
-        width: 85vw;
+        width: 8vw;
     }
 }
 
