@@ -1,4 +1,6 @@
 
+// Projects JS
+
 document.addEventListener('DOMContentLoaded', function() {
     let currentIndex = 0;
 
@@ -33,6 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
     //     moveSlide(1);
     // }, 5000);
 });
+
+
 
 // document.addEventListener('DOMContentLoaded', function() {
 //     let currentIndex = 0;
@@ -79,52 +83,3 @@ document.addEventListener('DOMContentLoaded', function() {
 // });
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const sections = ['figma', 'landingPages', 'webDevelopment', 'componentLayouts', 'animationMotion'];
-
-    sections.forEach(sectionId => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            const prevBtn = section.querySelector('.prev');
-            const nextBtn = section.querySelector('.next');
-            const slider = section.querySelector('.sliderCards');
-            const cards = slider.querySelectorAll('.projectCards');
-
-            let currentIndex = 0;
-
-            const updateSlider = () => {
-                slider.scrollLeft = cards[currentIndex].offsetLeft;
-            };
-
-            prevBtn.addEventListener('click', () => {
-                if (currentIndex > 0) {
-                    currentIndex--;
-                    updateSlider();
-                } else {
-                    currentIndex = cards.length - 1; // Ir al último slide
-                    updateSlider();
-                }
-            });
-
-            nextBtn.addEventListener('click', () => {
-                if (currentIndex < cards.length - 1) {
-                    currentIndex++;
-                    updateSlider();
-                } else {
-                    currentIndex = 0; // Ir al primer slide
-                    updateSlider();
-                }
-            });
-
-            // Opcional: Mover automáticamente las diapositivas cada 5 segundos
-            // setInterval(() => {
-            //     if (currentIndex < cards.length - 1) {
-            //         currentIndex++;
-            //     } else {
-            //         currentIndex = 0;
-            //     }
-            //     updateSlider();
-            // }, 5000);
-        }
-    });
-});
