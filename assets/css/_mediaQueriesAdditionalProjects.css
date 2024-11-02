@@ -39,9 +39,7 @@
         transform:  translateX(50%);
     }
 
-
-
-    .sliderCards {
+    /* .sliderCards {
         display: flex;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
@@ -49,7 +47,8 @@
     .projectCards {
         min-width: auto;
         scroll-snap-align: center;
-    }
+    } */
+
 }
 
 /* Additional Project Tooltip*/
