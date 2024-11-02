@@ -12,10 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const slider = section.querySelector('.sliderCards');
             const cards = slider ? slider.querySelectorAll('.projectCards') : null;
 
-            // Verificar que prevBtn, nextBtn, slider, y cards existen antes de continuar
             if (!prevBtn || !nextBtn || !slider || !cards) {
                 console.warn(`Elementos no encontrados en la sección: ${sectionId}`);
-                return; // Terminar esta iteración si faltan elementos
+                return;
             }
 
             let currentIndex = 0;
