@@ -1,5 +1,4 @@
 
-
 /* MediaQueries Additional Projects */
 
 @media (min-width: 0px) and (max-width: 950px){
@@ -59,7 +58,7 @@
 
 @media (min-width: 0px) and (max-width: 750px){
     .mainContainerAdditionalProjects .heroSection .sectionTooltipAdditionalProjects .tooltip .intro{
-        width: 80vw;
+        width: 85vw;
     }
 }
 
