@@ -39,6 +39,18 @@
     .mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(2){
         transform:  translateX(50%);
     }
+
+
+
+    .sliderCards {
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+    .projectCards {
+        min-width: 80vw;
+        scroll-snap-align: center;
+    }
 }
 
 /* Additional Project Tooltip*/
