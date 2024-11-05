@@ -10,41 +10,35 @@ document.addEventListener('DOMContentLoaded', () => {
             const prevBtn = section.querySelector('.prev');
             const nextBtn = section.querySelector('.next');
             const slider = section.querySelector('.sliderCards');
-            const cards = slider ? slider.querySelectorAll('.projectCards') : null;
+            const cardWidth = slider.querySelector('.projectCards').offsetWidth; // Obtener ancho de una tarjeta
 
-            if (!prevBtn || !nextBtn || !slider || !cards) {
+            if (!prevBtn || !nextBtn || !slider) {
                 console.warn(`Elementos no encontrados en la sección: ${sectionId}`);
                 return;
             }
 
-            let currentIndex = 0;
-
-            const updateSlider = () => {
-                setTimeout(() => {
-                    slider.scrollLeft = cards[currentIndex].offsetLeft;
-                }, 100); // Retraso de 100 ms
+            // Función para hacer scroll relativo a la izquierda
+            const scrollLeft = () => {
+                slider.scrollBy({
+                    left: -cardWidth, // Desplazar una tarjeta a la izquierda
+                    behavior: 'smooth'
+                });
             };
 
-            prevBtn.addEventListener('click', () => {
-                if (currentIndex > 0) {
-                    currentIndex--;
-                } else {
-                    currentIndex = cards.length - 1;
-                }
-                updateSlider();
-            });
+            // Función para hacer scroll relativo a la derecha
+            const scrollRight = () => {
+                slider.scrollBy({
+                    left: cardWidth, // Desplazar una tarjeta a la derecha
+                    behavior: 'smooth'
+                });
+            };
 
-            nextBtn.addEventListener('click', () => {
-                if (currentIndex < cards.length - 1) {
-                    currentIndex++;
-                } else {
-                    currentIndex = 0;
-                }
-                updateSlider();
-            });
+            prevBtn.addEventListener('click', scrollLeft);
+            nextBtn.addEventListener('click', scrollRight);
         }
     });
 });
+
 
 
 
