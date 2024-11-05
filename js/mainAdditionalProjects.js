@@ -10,65 +10,32 @@ document.addEventListener('DOMContentLoaded', () => {
             const prevBtn = section.querySelector('.prev');
             const nextBtn = section.querySelector('.next');
             const slider = section.querySelector('.sliderCards');
-            const cards = slider.querySelectorAll('.projectCards');
-            const cardWidth = cards[0].offsetWidth; // Ancho de una tarjeta
-            const visibleWidth = slider.clientWidth; // Ancho visible del contenedor
-            let isScrolling = false; // Variable para controlar el estado de desplazamiento
+            const cards = slider ? slider.querySelectorAll('.projectCards') : null;
 
-            if (!prevBtn || !nextBtn || !slider || cards.length === 0) {
+            if (!prevBtn || !nextBtn || !slider || !cards) {
                 console.warn(`Elementos no encontrados en la sección: ${sectionId}`);
                 return;
             }
 
-            const scrollLeft = () => {
-                if (isScrolling) return; // Evita el clic si ya estamos desplazando
-                isScrolling = true; // Marcar que estamos en un desplazamiento
+            let currentIndex = 0;
 
-                if (slider.scrollLeft <= 0) {
-                    // Si estamos al inicio, vamos al final
-                    slider.scrollTo({
-                        left: slider.scrollWidth - visibleWidth,
-                        behavior: 'smooth'
-                    });
-                } else {
-                    slider.scrollTo({
-                        left: slider.scrollLeft - cardWidth,
-                        behavior: 'smooth'
-                    });
-                }
-
-                setTimeout(() => {
-                    isScrolling = false; // Permitir otro clic después del desplazamiento
-                }, 600); // Ajusta el tiempo según el efecto de desplazamiento
+            const updateSlider = () => {
+                slider.scrollLeft = cards[currentIndex].offsetLeft;
             };
 
-            const scrollRight = () => {
-                if (isScrolling) return; // Evita el clic si ya estamos desplazando
-                isScrolling = true; // Marcar que estamos en un desplazamiento
+            prevBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + cards.length) % cards.length; // Mueve a la tarjeta anterior
+                updateSlider();
+            });
 
-                if (slider.scrollLeft + visibleWidth >= slider.scrollWidth) {
-                    // Si estamos al final, vamos al inicio
-                    slider.scrollTo({
-                        left: 0,
-                        behavior: 'smooth'
-                    });
-                } else {
-                    slider.scrollTo({
-                        left: slider.scrollLeft + cardWidth,
-                        behavior: 'smooth'
-                    });
-                }
-
-                setTimeout(() => {
-                    isScrolling = false; // Permitir otro clic después del desplazamiento
-                }, 600); // Ajusta el tiempo según el efecto de desplazamiento
-            };
-
-            prevBtn.addEventListener('click', scrollLeft);
-            nextBtn.addEventListener('click', scrollRight);
+            nextBtn.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % cards.length; // Mueve a la siguiente tarjeta
+                updateSlider();
+            });
         }
     });
 });
+
 
 
 // document.addEventListener('DOMContentLoaded', () => {
@@ -83,14 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
 //             const cards = slider.querySelectorAll('.projectCards');
 //             const cardWidth = cards[0].offsetWidth; // Ancho de una tarjeta
 //             const visibleWidth = slider.clientWidth; // Ancho visible del contenedor
+//             let isScrolling = false; // Variable para controlar el estado de desplazamiento
 
 //             if (!prevBtn || !nextBtn || !slider || cards.length === 0) {
 //                 console.warn(`Elementos no encontrados en la sección: ${sectionId}`);
 //                 return;
 //             }
 
-//             // Función para hacer scroll hacia la izquierda
 //             const scrollLeft = () => {
+//                 if (isScrolling) return; // Evita el clic si ya estamos desplazando
+//                 isScrolling = true; // Marcar que estamos en un desplazamiento
+
 //                 if (slider.scrollLeft <= 0) {
 //                     // Si estamos al inicio, vamos al final
 //                     slider.scrollTo({
@@ -98,15 +68,21 @@ document.addEventListener('DOMContentLoaded', () => {
 //                         behavior: 'smooth'
 //                     });
 //                 } else {
-//                     slider.scrollBy({
-//                         left: -cardWidth,
+//                     slider.scrollTo({
+//                         left: slider.scrollLeft - cardWidth,
 //                         behavior: 'smooth'
 //                     });
 //                 }
+
+//                 setTimeout(() => {
+//                     isScrolling = false; // Permitir otro clic después del desplazamiento
+//                 }, 600); // Ajusta el tiempo según el efecto de desplazamiento
 //             };
 
-//             // Función para hacer scroll hacia la derecha
 //             const scrollRight = () => {
+//                 if (isScrolling) return; // Evita el clic si ya estamos desplazando
+//                 isScrolling = true; // Marcar que estamos en un desplazamiento
+
 //                 if (slider.scrollLeft + visibleWidth >= slider.scrollWidth) {
 //                     // Si estamos al final, vamos al inicio
 //                     slider.scrollTo({
@@ -114,11 +90,15 @@ document.addEventListener('DOMContentLoaded', () => {
 //                         behavior: 'smooth'
 //                     });
 //                 } else {
-//                     slider.scrollBy({
-//                         left: cardWidth,
+//                     slider.scrollTo({
+//                         left: slider.scrollLeft + cardWidth,
 //                         behavior: 'smooth'
 //                     });
 //                 }
+
+//                 setTimeout(() => {
+//                     isScrolling = false; // Permitir otro clic después del desplazamiento
+//                 }, 600); // Ajusta el tiempo según el efecto de desplazamiento
 //             };
 
 //             prevBtn.addEventListener('click', scrollLeft);
