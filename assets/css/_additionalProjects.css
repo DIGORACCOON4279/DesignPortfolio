@@ -589,7 +589,7 @@
     box-shadow: 0 8px 32px #0000001a;
     background-color: #dbdbdb23;
     box-sizing: border-box;
-    scroll-snap-align: center;
+    /* scroll-snap-align: center; */
     transition: transform 0.3s ease-in-out;
 }
 .mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .tooltipInfo{
@@ -705,7 +705,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    transform:  translateY(-50%);
+    align-items: center;
+    transform:  translate(0%);
 }
 .mainContainerAdditionalProjects .section .containerSection .arrows .arrow{
     width:50px;
@@ -713,7 +714,6 @@
     border-radius: 5px;
     cursor: pointer;
     background-color:#f2f2f2 ;
-    transform:  translateX(0%);
     transition:0.3s ease-in-out;
 }
 .mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(1){
