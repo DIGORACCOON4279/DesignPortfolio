@@ -567,8 +567,9 @@
     align-items: center;
     gap:50px;
     padding:100px 40px;
-    scroll-behavior: smooth;
     overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
     z-index: 0;
     transition: transform 0.5s ease-in-out;
 }
@@ -587,6 +588,8 @@
     box-shadow: 0 8px 32px #0000001a;
     background-color: #dbdbdb23;
     box-sizing: border-box;
+
+    scroll-snap-align: center;
     transition: transform 0.3s ease-in-out;
 }
 .mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .tooltipInfo{
