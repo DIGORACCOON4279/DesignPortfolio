@@ -589,7 +589,7 @@
     box-shadow: 0 8px 32px #0000001a;
     background-color: #dbdbdb23;
     box-sizing: border-box;
-    /* scroll-snap-align: center; */
+    scroll-snap-align: center;
     transition: transform 0.3s ease-in-out;
 }
 .mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards .tooltipInfo{
