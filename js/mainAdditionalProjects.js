@@ -10,27 +10,45 @@ document.addEventListener('DOMContentLoaded', () => {
             const prevBtn = section.querySelector('.prev');
             const nextBtn = section.querySelector('.next');
             const slider = section.querySelector('.sliderCards');
-            const cardWidth = slider.querySelector('.projectCards').offsetWidth; // Obtener ancho de una tarjeta
+            const cards = slider.querySelectorAll('.projectCards');
+            const cardWidth = cards[0].offsetWidth; // Ancho de una tarjeta
+            const visibleWidth = slider.clientWidth; // Ancho visible del contenedor
 
-            if (!prevBtn || !nextBtn || !slider) {
+            if (!prevBtn || !nextBtn || !slider || cards.length === 0) {
                 console.warn(`Elementos no encontrados en la sección: ${sectionId}`);
                 return;
             }
 
-            // Función para hacer scroll relativo a la izquierda
+            // Función para hacer scroll hacia la izquierda
             const scrollLeft = () => {
-                slider.scrollBy({
-                    left: -cardWidth, // Desplazar una tarjeta a la izquierda
-                    behavior: 'smooth'
-                });
+                if (slider.scrollLeft <= 0) {
+                    // Si estamos al inicio, vamos al final
+                    slider.scrollTo({
+                        left: slider.scrollWidth - visibleWidth,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    slider.scrollBy({
+                        left: -cardWidth,
+                        behavior: 'smooth'
+                    });
+                }
             };
 
-            // Función para hacer scroll relativo a la derecha
+            // Función para hacer scroll hacia la derecha
             const scrollRight = () => {
-                slider.scrollBy({
-                    left: cardWidth, // Desplazar una tarjeta a la derecha
-                    behavior: 'smooth'
-                });
+                if (slider.scrollLeft + visibleWidth >= slider.scrollWidth) {
+                    // Si estamos al final, vamos al inicio
+                    slider.scrollTo({
+                        left: 0,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    slider.scrollBy({
+                        left: cardWidth,
+                        behavior: 'smooth'
+                    });
+                }
             };
 
             prevBtn.addEventListener('click', scrollLeft);
@@ -40,8 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-
 // document.addEventListener('DOMContentLoaded', () => {
 //     const sections = ['figma', 'landingPages', 'webDevelopment', 'componentLayouts', 'animationMotion'];
 
@@ -51,89 +67,31 @@ document.addEventListener('DOMContentLoaded', () => {
 //             const prevBtn = section.querySelector('.prev');
 //             const nextBtn = section.querySelector('.next');
 //             const slider = section.querySelector('.sliderCards');
-//             const cards = slider ? slider.querySelectorAll('.projectCards') : null;
+//             const cardWidth = slider.querySelector('.projectCards').offsetWidth; // Obtener ancho de una tarjeta
 
-//             if (!prevBtn || !nextBtn || !slider || !cards) {
+//             if (!prevBtn || !nextBtn || !slider) {
 //                 console.warn(`Elementos no encontrados en la sección: ${sectionId}`);
 //                 return;
 //             }
 
-//             let currentIndex = 0;
-
-//             const updateSlider = () => {
-//                 slider.scrollLeft = cards[currentIndex].offsetLeft;
+//             // Función para hacer scroll relativo a la izquierda
+//             const scrollLeft = () => {
+//                 slider.scrollBy({
+//                     left: -cardWidth, // Desplazar una tarjeta a la izquierda
+//                     behavior: 'smooth'
+//                 });
 //             };
 
-//             prevBtn.addEventListener('click', () => {
-//                 if (currentIndex > 0) {
-//                     currentIndex--;
-//                     updateSlider();
-//                 } else {
-//                     currentIndex = cards.length - 1;
-//                     updateSlider();
-//                 }
-//             });
-
-//             nextBtn.addEventListener('click', () => {
-//                 if (currentIndex < cards.length - 1) {
-//                     currentIndex++;
-//                     updateSlider();
-//                 } else {
-//                     currentIndex = 0;
-//                     updateSlider();
-//                 }
-//             });
-//         }
-//     });
-// });
-
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     const sections = ['figma', 'landingPages', 'webDevelopment', 'componentLayouts', 'animationMotion'];
-
-//     sections.forEach(sectionId => {
-//         const section = document.getElementById(sectionId);
-//         if (section) {
-//             const prevBtn = section.querySelector('.prev');
-//             const nextBtn = section.querySelector('.next');
-//             const slider = section.querySelector('.sliderCards');
-//             const cards = slider.querySelectorAll('.projectCards');
-
-//             let currentIndex = 0;
-
-//             const updateSlider = () => {
-//                 slider.scrollLeft = cards[currentIndex].offsetLeft;
+//             // Función para hacer scroll relativo a la derecha
+//             const scrollRight = () => {
+//                 slider.scrollBy({
+//                     left: cardWidth, // Desplazar una tarjeta a la derecha
+//                     behavior: 'smooth'
+//                 });
 //             };
 
-//             prevBtn.addEventListener('click', () => {
-//                 if (currentIndex > 0) {
-//                     currentIndex--;
-//                     updateSlider();
-//                 } else {
-//                     currentIndex = cards.length - 1; // Ir al último slide
-//                     updateSlider();
-//                 }
-//             });
-
-//             nextBtn.addEventListener('click', () => {
-//                 if (currentIndex < cards.length - 1) {
-//                     currentIndex++;
-//                     updateSlider();
-//                 } else {
-//                     currentIndex = 0; // Ir al primer slide
-//                     updateSlider();
-//                 }
-//             });
-
-//             // Opcional: Mover automáticamente las diapositivas cada 5 segundos
-//             // setInterval(() => {
-//             //     if (currentIndex < cards.length - 1) {
-//             //         currentIndex++;
-//             //     } else {
-//             //         currentIndex = 0;
-//             //     }
-//             //     updateSlider();
-//             // }, 5000);
+//             prevBtn.addEventListener('click', scrollLeft);
+//             nextBtn.addEventListener('click', scrollRight);
 //         }
 //     });
 // });
