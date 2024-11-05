@@ -571,7 +571,7 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     z-index: 0;
-    transition: transform 0.5s ease-in-out;
+    /* transition: transform 0.5s ease-in-out; */
 }
 .mainContainerAdditionalProjects .section .containerSection .sliderCards .projectCards{
     width:35%;
