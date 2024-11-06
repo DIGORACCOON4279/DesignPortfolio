@@ -164,7 +164,4 @@
     .mainContainerAdditionalProjects .section .containerSection .arrows .arrow:nth-child(2){
         transform:  translateX(50%);
     }
-    .mainContainerAdditionalProjects .section .containerSection .tag{
-        width:70%;
-    }
 }
