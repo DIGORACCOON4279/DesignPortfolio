@@ -253,13 +253,13 @@
 }
 @keyframes moveSpot4 {
     0%, 100% {
-        transform: translate(0, 0) scale(1);
+        transform: translate(250px, 0) scale(1);
     }
     25% {
-        transform: translate(50px, -50px) scale(1.2);
+        transform: translate(200px, 0px) scale(1.2);
     }
     50% {
-        transform: translate(100px, 0) scale(1);
+        transform: translate(100px, 0px) scale(1);
     }
     75% {
         transform: translate(50px, 50px) scale(1.2);
@@ -267,10 +267,10 @@
 }
 @keyframes moveSpot5 {
     0%, 100% {
-        transform: translate(0, 0) scale(1);
+        transform: translate(200px, 0) scale(1);
     }
     25% {
-        transform: translate(-50px, -50px) scale(1.2);
+        transform: translate(50px, -50px) scale(1.2);
     }
     50% {
         transform: translate(0, -100px) scale(1);
