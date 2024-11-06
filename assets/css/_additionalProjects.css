@@ -1,5 +1,4 @@
 
-
 /* Additional Projects */
 
 .mainContainerAdditionalProjects{
@@ -213,7 +212,6 @@
     margin: auto;
     z-index: -1;
     overflow: hidden;
-    background-color: #6a0dad;
 }
 .mainContainerAdditionalProjects .heroSection .mainHeroAdditionalProjects .spots .spot{
     width: 60px;
